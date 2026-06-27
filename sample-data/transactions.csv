@@ -1,0 +1,801 @@
+id,date,entity_id,vendor_name,description,amount,true_category,anomaly_type,tier
+311c32b6-fa37-4a4e-909c-dd3fbfc07c01,2025-11-13,ent_002,Amazon,Amazon - fasteners,-1122.01,Materials & Supplies,,ambiguous
+4928f0d7-15d2-45f9-a124-3e4074b9b613,2025-07-06,ent_003,Paychex Inc,Paychex Inc - biweekly payroll run,-11184.44,Payroll,,obvious
+14202a44-b8e8-430e-90dc-86c1057f3c42,2025-07-04,ent_003,Square Payment,Square Payment - vendor payment via Square,-160.49,Cost of Goods Sold,,ambiguous
+c2dafaa6-8482-4301-8d5f-c57e536c60f1,2025-07-02,ent_003,PSE&G,PSE&G - water & sewer,-1768.15,Utilities,,obvious
+0f57f30c-3a92-454e-8b87-23bb0eee441e,2025-08-09,ent_002,GitHub,GitHub - annual license renewal,-423.01,Software & Subscriptions,,obvious
+b6b7a8d1-6b4c-479c-9c55-99e4c4fe33f1,2025-08-01,ent_004,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-1502.76,Insurance,,obvious
+576ec767-33b5-49c5-98c0-3945112152ab,2026-03-15,ent_004,Costco Wholesale,Costco Wholesale - bulk ingredients,-362.01,Cost of Goods Sold,,ambiguous
+85f51021-5fa8-4259-96d1-b7654d7c261a,2026-01-29,ent_003,Ferguson Building Materials,Ferguson Building Materials - job site materials,-2394.2,Materials & Supplies,,obvious
+81796b4f-e0ae-4f1a-b97b-d9bf5007e653,2026-01-19,ent_002,Google Ads,Google Ads - social media ads,-2273.09,Marketing,,obvious
+bb7022a4-05e4-4b51-95f4-9803e3be636e,2025-12-14,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - client visit - rideshare,-113.27,Travel,,obvious
+331abb3e-e8c9-4d3b-84e3-1036f2ce07d4,2026-03-31,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-101.35,Repairs & Maintenance,,ambiguous
+4a72448d-0601-49bd-a860-c324bd030d43,2025-09-17,ent_004,Square Payment,Square Payment - contractor invoice via Square [1 of 2 - possible split to avoid approval threshold],-2285.97,Subcontractor Payments,split_transaction,anomaly
+421a807a-fcf0-468d-b23d-79258b48c0c2,2025-11-07,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-49.94,Travel,,ambiguous
+af7bd75a-e5c0-4a4d-86ba-3af255ad2cc0,2025-08-21,ent_003,84 Lumber,84 Lumber - building supply restock,-1172.89,Materials & Supplies,,obvious
+7b8d9c99-7949-4188-a44b-c07d8e996c15,2026-04-28,ent_002,Square Payment,Square Payment - vendor payment via Square,-451.77,Cost of Goods Sold,,ambiguous
+4e7e7abc-e848-4793-ba63-11b549c5e803,2026-04-21,ent_003,Costco Wholesale,Costco Wholesale - cleaning supplies,-45.23,Office Supplies,,ambiguous
+85ff6a29-9aa7-4c5f-94fa-c21c44c8bdf7,2025-12-21,ent_004,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-85.13,Bank Fees,,obvious
+b7840a05-bd79-42a2-a2e0-490c9049e65b,2026-03-17,ent_004,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-860.81,Insurance,,obvious
+cac85322-9806-4f71-bb4c-cd1aa094affc,2025-10-11,ent_003,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1367.39,Travel,,obvious
+bd55abf1-2ee3-44b1-a261-9ca2b5c74283,2025-07-07,ent_003,Google Ads,Google Ads - local promo campaign,-1934.53,Marketing,,obvious
+79de98b6-a478-41b3-8ada-eaad8d2f1764,2025-09-17,ent_003,PSE&G,PSE&G - water & sewer,-812.88,Utilities,,obvious
+ecb90919-e8b6-4ca1-87cb-baaa20ade32e,2025-12-22,ent_001,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-34.62,Materials & Supplies,,obvious
+b3b39a04-7b99-4f7e-b4c4-cffe3ea67050,2026-04-17,ent_004,State Farm Commercial,State Farm Commercial - quarterly liability premium,-2412.76,Insurance,,obvious
+15391743-f618-408e-9dcd-e0720a73fd5c,2026-04-11,ent_004,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-563.92,Materials & Supplies,,obvious
+9826e7a3-14a8-40c0-9f95-083d5bcbe585,2026-04-03,ent_004,ADP Payroll,ADP Payroll - biweekly payroll run,-4761.99,Payroll,,obvious
+2176fafd-7793-4281-9c4b-98156bc3ceef,2025-10-13,ent_002,Yelp Ads,Yelp Ads - ad campaign spend,-1505.38,Marketing,,obvious
+5446a893-fbec-4aae-a914-65ca452233f4,2025-07-13,ent_001,Meta Ads,Meta Ads - ad campaign spend,-2364.07,Marketing,,obvious
+eb00f001-06ad-4e27-8f1e-fb79aba6c3e4,2025-12-30,ent_003,Home Depot,Home Depot - power tools,-537.83,Equipment,,ambiguous
+21749fb0-b62e-4465-b2f6-9f500a78ea29,2025-11-18,ent_004,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-1267.21,Bank Fees,,obvious
+29e66d57-f050-4145-a2d3-28c0ab42165b,2025-11-27,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - rent - storefront,-4373.42,Rent,,obvious
+acf400c7-ce98-4b9a-b623-e554062723f7,2026-05-13,ent_002,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-2188.73,Travel,,obvious
+28f1fa54-4ea7-44ec-82e8-6bf1cf59442e,2025-08-30,ent_002,Google Ads,Google Ads - ad campaign spend,-2043.15,Marketing,,obvious
+b6b310d3-b247-4626-8ab7-45847ebd814d,2025-12-07,ent_002,Square Payment,Square Payment - vendor payment via Square,-577.39,Cost of Goods Sold,,ambiguous
+c991265d-c129-4964-b6e1-ccfcdd879cee,2026-02-28,ent_001,Costco Wholesale,Costco Wholesale - staff lunch,-110.29,Meals & Entertainment,,ambiguous
+5cd92580-948b-406b-a0eb-9cb23de6b1b6,2026-05-31,ent_003,Shell Gas Station,Shell Gas Station - fuel - business trip,-47.98,Travel,,ambiguous
+405e49dc-0aba-41cd-a152-edbb2b1fb423,2025-08-27,ent_004,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment [1 of 2 - possible split to avoid approval threshold],-131.77,Subcontractor Payments,split_transaction,anomaly
+e7668a00-6bca-4a79-9d2e-97c329b1d049,2026-05-19,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-634.81,Bank Fees,,obvious
+528e62bf-4123-4a5b-9607-3f53b9c17de4,2026-04-05,ent_002,State Farm Commercial,State Farm Commercial - workers comp premium,-577.53,Insurance,,obvious
+96bd1723-e444-4de0-83a2-0173ae2e8cd8,2025-09-22,ent_004,Square Payment,Square Payment - vendor payment via Square,-580.12,Cost of Goods Sold,,ambiguous
+aa715b59-179e-40a8-b00d-d239dab48c4b,2026-03-20,ent_003,Paychex Inc,Paychex Inc - payroll - hourly staff,-12036.8,Payroll,duplicate,anomaly
+4163d123-b502-4440-a0e8-d990b2c092fd,2026-01-02,ent_002,Slack,Slack - monthly subscription,-2373.21,Software & Subscriptions,,obvious
+5a28af59-ff0a-40dd-8b08-41abcba1b715,2025-09-11,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-1386.08,Professional Fees,,obvious
+ec9ca0ab-89dd-4f99-9803-a0b08ec4c69f,2026-04-03,ent_004,Amazon,Amazon - site supplies,-453.83,Materials & Supplies,,ambiguous
+c281f107-de28-435e-af57-2fe8ef346270,2025-06-26,ent_003,Home Depot,Home Depot - repair parts,-183.28,Repairs & Maintenance,,ambiguous
+5108539f-7577-4512-918d-26888c13478c,2025-09-19,ent_002,Delta Air Lines,Delta Air Lines - conference travel,-272.35,Travel,,obvious
+22990ca2-66bb-4e60-ad64-23dbb86fcb26,2026-06-03,ent_002,Costco Wholesale,Costco Wholesale - paper goods,-63.58,Office Supplies,,ambiguous
+805e6b8a-ab58-41a6-9292-a36d9aff1288,2025-09-29,ent_003,84 Lumber,84 Lumber - building supply restock,-1398.36,Materials & Supplies,,obvious
+6f7bb34a-b01f-4c07-bc7c-8959cf0676a6,2025-07-28,ent_003,84 Lumber,84 Lumber - job site materials,-455.23,Materials & Supplies,,obvious
+3f41c797-cb26-45cf-88b3-13f0806f287e,2026-05-06,ent_004,Costco Wholesale,Costco Wholesale - cleaning supplies,-38.5,Office Supplies,,ambiguous
+b20f4e6d-e8fe-4d18-aafc-1c7bfcd09533,2025-12-06,ent_004,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1387.14,Bank Fees,,obvious
+ba26b072-8607-4d64-bd52-54bf4d3ee56a,2026-02-13,ent_001,Home Depot,Home Depot - lumber,-243.3,Materials & Supplies,,ambiguous
+1da69abc-8e0f-40a1-bdf4-d96c6a00e60d,2026-03-09,ent_004,Reliable Plumbing Co,Reliable Plumbing Co - milestone payment,-1208.12,Subcontractor Payments,,obvious
+fc15b979-578d-41c3-8843-2d69192cf14d,2025-11-17,ent_001,Home Depot,Home Depot - site materials,-701.53,Materials & Supplies,,ambiguous
+20581eaf-aa7b-4a33-a8ce-d24d339a8238,2025-07-31,ent_002,Shell Gas Station,Shell Gas Station - fuel - business trip,-50.35,Travel,,ambiguous
+8b8d2601-bc91-4937-a75c-1ce975922d68,2025-09-03,ent_002,Toast POS,Toast POS - cloud hosting charge,-824.47,Software & Subscriptions,,obvious
+8966e573-a38e-4da6-a0fb-4cf64abe0ed9,2025-07-15,ent_004,State Farm Commercial,State Farm Commercial - quarterly liability premium,-1078.37,Insurance,,obvious
+2a08c313-71a2-4e7d-82ba-16647ca9ef9f,2026-02-12,ent_002,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1273.41,Subcontractor Payments,,obvious
+6b2b3804-5737-4c13-8b7c-ba1383decf37,2025-07-18,ent_002,Home Depot Pro,Home Depot Pro - hardware order,-1962.4,Materials & Supplies,,obvious
+70d92ba8-be92-431f-ad82-9c40371658f0,2025-07-23,ent_002,Yelp Ads,Yelp Ads - ad campaign spend,-1411.89,Marketing,,obvious
+96c83725-eaae-466a-931c-462164edc982,2025-09-05,ent_003,Sysco Foods,Sysco Foods - bulk ingredient restock,-2250.29,Cost of Goods Sold,,obvious
+4ed396fa-869f-49a7-9f80-86d8711b5178,2025-11-20,ent_002,AWS,AWS - annual license renewal,-279.28,Software & Subscriptions,,obvious
+99efb551-245b-4b72-902d-a8a61eb3eb57,2026-06-14,ent_003,ADP Payroll,Payroll run - processed Saturday (off-cycle),-6824.47,Payroll,off_hours_payroll,anomaly
+5097537a-4342-4555-8731-9126c59842d7,2026-05-23,ent_003,Westfield Property Management,Westfield Property Management - monthly lease payment,-8419.63,Rent,,obvious
+dbe52b5d-b03c-49b1-a6ac-305c760bef4b,2026-03-03,ent_001,Westfield Property Management,Westfield Property Management - monthly lease payment,-3493.23,Rent,,obvious
+90705b93-162f-40a3-a3f7-cf3628f1b67a,2026-01-14,ent_003,Amazon,Amazon - tools,-204.09,Equipment,,ambiguous
+5898c8f2-a832-4c5e-9f03-2f2b34132f0d,2025-09-21,ent_001,Paychex Inc,Paychex Inc - payroll - hourly staff,-17669.77,Payroll,,obvious
+c378613a-48ce-4543-a278-7c478a7b84db,2025-10-04,ent_003,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-276.93,Materials & Supplies,,obvious
+8051e35e-6883-4c2a-886e-c471f96e8808,2026-02-13,ent_001,Westfield Property Management,Westfield Property Management - rent - warehouse space,-3053.68,Rent,,obvious
+17309a4a-4b07-452a-97ce-99ab0304fd56,2025-12-29,ent_004,Costco Wholesale,Costco Wholesale - paper goods,-128.95,Office Supplies,,ambiguous
+ff053bcc-fb1f-4901-9b8b-bfa390a7fe58,2025-09-05,ent_003,Square Payment,Square Payment - contractor invoice via Square [1 of 2 - possible split to avoid approval threshold],-1781.35,Subcontractor Payments,split_transaction,anomaly
+1965bb9d-68ff-49a7-ba22-8dbe56cd8444,2025-11-05,ent_004,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment,-1786.76,Subcontractor Payments,,obvious
+2e1b18ad-8684-422d-b7c7-5a9230fdaf51,2025-09-07,ent_003,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1817.61,Insurance,,obvious
+dcb45ef6-67bd-4ec8-8301-6ed38d0d081f,2025-11-12,ent_003,Marriott Hotels,Marriott Hotels - business trip - flight,-39.17,Travel,,obvious
+03a868dd-93d7-4ebb-87f0-234eed84e067,2026-03-20,ent_003,Paychex Inc,Paychex Inc - payroll - hourly staff,-12036.8,Payroll,,obvious
+132d70a9-c3b8-438c-8827-f0d62913a3f7,2025-11-30,ent_004,ADP Payroll,ADP Payroll - payroll - hourly staff,-10859.44,Payroll,,obvious
+a9809676-9c6b-43e7-bd6a-7f7af0cf0252,2025-10-18,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-83.68,Repairs & Maintenance,,ambiguous
+9cb654f7-5e5f-49f9-a433-02e893f0ddfd,2025-10-03,ent_001,Square Payment,Square Payment - contractor invoice via Square,-4242.44,Subcontractor Payments,,ambiguous
+4d873382-9804-4fd8-ab3d-d447f0aa2d7d,2026-03-31,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - overdraft fee,-1125.87,Bank Fees,,obvious
+d5159bc5-7d01-41d3-98c7-6abba4ba60ff,2025-11-12,ent_003,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-1273.77,Insurance,,obvious
+c54f3d24-53f0-48cf-ba2a-3f199e5e0318,2026-03-11,ent_004,State Farm Commercial,State Farm Commercial - workers comp premium,-1542.99,Insurance,,obvious
+6eebed9a-4208-43e8-be46-d1fb7523e286,2025-08-16,ent_004,Square Payment,Square Payment - vendor payment via Square [1 of 2 - possible split to avoid approval threshold],-50.62,Cost of Goods Sold,split_transaction,anomaly
+2268d8b9-cfce-425e-800a-fe0ed1b9842d,2026-04-06,ent_002,Meta Ads,Meta Ads - social media ads,-1464.62,Marketing,,obvious
+d2f96a5c-930c-4624-ae10-e6e885f31025,2026-03-01,ent_001,Ferguson Building Materials,Ferguson Building Materials - job site materials,-93.9,Materials & Supplies,,obvious
+38c0f025-74f0-4bae-8a00-c6fe2472b0f9,2025-07-22,ent_003,Home Depot,Home Depot - site materials,-1192.36,Materials & Supplies,,ambiguous
+a0401d99-cab9-4611-85ae-da5b57ff47e1,2025-12-03,ent_004,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-11500.44,Payroll,,obvious
+7602b72f-cc4d-4265-858d-b39cb84313d6,2026-04-20,ent_004,Amazon,Amazon - POS tablet,-1910.38,Equipment,,ambiguous
+4f1c6b1d-4c5d-45cd-919c-7cf223737470,2025-11-30,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-53.44,Travel,,ambiguous
+4eebe939-e7ca-40b5-a86f-356a6d91db1a,2025-12-27,ent_001,Home Depot,Home Depot - lumber,-3816.32,Materials & Supplies,,ambiguous
+0558f6c8-3576-4837-915b-ba3fec503d72,2025-08-31,ent_002,Home Depot,Home Depot - repair parts,-241.34,Repairs & Maintenance,,ambiguous
+b6438301-8f7c-4ec0-a09c-3a914a4fc857,2025-09-02,ent_002,Amazon,Amazon - folders,-34.19,Office Supplies,,ambiguous
+c5634c63-a4f0-4dc8-9794-66d097063b83,2026-01-26,ent_001,Manual Journal Entry,Manual adjustment - owner draw adjustment,-1500,Cost of Goods Sold,duplicate,anomaly
+f6471199-3b16-4350-bfe9-4b16fb3a4b38,2025-09-25,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-1211.51,Professional Fees,,obvious
+432e5ae0-59df-43a7-a49d-a24cd503544c,2025-12-26,ent_002,Microsoft 365,Microsoft 365 - annual license renewal,-1840.82,Software & Subscriptions,,obvious
+326d4cb7-0966-4c38-a053-0b7e65d49b84,2025-10-17,ent_002,National Grid,National Grid - water & sewer,-149.41,Utilities,,obvious
+aa23ed0c-857e-4042-8a8c-810aef72eff5,2025-11-27,ent_001,ADP Payroll,ADP Payroll - biweekly payroll run,-10220.38,Payroll,,obvious
+7d219e06-3e64-4889-997e-a4ab8529bc94,2026-06-12,ent_004,Costco Wholesale,Costco Wholesale - paper goods [1 of 2 - possible split to avoid approval threshold],-38.13,Office Supplies,split_transaction,anomaly
+85a1ba17-670d-4f9e-a8f2-7622fec75a99,2025-10-07,ent_003,State Farm Commercial,State Farm Commercial - workers comp premium,-1815.93,Insurance,,obvious
+18f481b3-c7f2-4f8d-af70-a0054e40523a,2026-01-05,ent_004,Delta Air Lines,Delta Air Lines - client visit - rideshare,-71.72,Travel,,obvious
+e5306986-8693-45ef-bd06-8bfc564ba22f,2025-07-05,ent_004,Home Depot Pro,Home Depot Pro - hardware order,-580.13,Materials & Supplies,duplicate,anomaly
+9f4b9a6c-6021-4933-b228-a1118a13a792,2026-01-24,ent_004,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-1633.34,Subcontractor Payments,,obvious
+aaa5a716-f14c-4119-8566-b91816afea83,2025-07-07,ent_004,ADP Payroll,ADP Payroll - biweekly payroll run,-5399.73,Payroll,,obvious
+ec18130a-e846-445e-9a69-e87a5f8d86a2,2026-04-23,ent_004,Microsoft 365,Microsoft 365 - annual license renewal,-639.04,Software & Subscriptions,,obvious
+6c4f843f-1e69-4a56-aff3-7633edc7c983,2026-03-06,ent_004,Home Depot,Home Depot - paint,-79.55,Repairs & Maintenance,,ambiguous
+7ec39535-9255-413c-970b-776646cba864,2025-09-07,ent_002,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-13013.67,Payroll,,obvious
+31e04443-4365-4859-af5e-dabf2bbeebbb,2025-12-06,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - rent - storefront,-2544.4,Rent,,obvious
+a9e21deb-438c-47b5-93cd-24afb3d628fa,2025-08-24,ent_003,Amazon,Amazon - tools,-2172.71,Equipment,,ambiguous
+700ef073-bd7b-4c6f-954f-5f8f51566fca,2026-04-12,ent_003,Home Depot,Home Depot - power tools,-888.15,Equipment,,ambiguous
+cd8fe160-d82f-4af9-8761-87971a676555,2026-04-08,ent_002,Home Depot,Home Depot - concrete,-3951.33,Materials & Supplies,,ambiguous
+fbfbac3e-da23-4198-b0ab-adda459919f5,2025-09-13,ent_004,Home Depot,Home Depot - concrete,-3347.71,Materials & Supplies,,ambiguous
+5b0ff573-e646-4cfb-933a-2297fb86150a,2025-11-02,ent_003,QuickBooks Online,QuickBooks Online - monthly subscription,-711.74,Software & Subscriptions,,obvious
+fb8c2fc3-4811-4f29-9dc9-e7bdde6aa57f,2026-05-09,ent_001,Ferguson Building Materials,Ferguson Building Materials - job site materials,-1788.51,Materials & Supplies,,obvious
+8d8c1075-0704-483d-868b-72d84f1ec6fc,2026-02-19,ent_004,Local Farms Co-op,Local Farms Co-op - bulk ingredient restock,-1697.38,Cost of Goods Sold,,obvious
+f54fe106-a58d-4bcb-ad8e-569f6e5b0e91,2026-02-06,ent_003,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-54.93,Repairs & Maintenance,,ambiguous
+3da97a6b-2c4d-41bc-9289-1ddebfb7ab24,2026-04-11,ent_001,Amazon,Amazon - commercial blender,-1229.17,Equipment,,ambiguous
+d21fb4e9-766b-4898-be08-0b114baac46f,2026-05-16,ent_002,US Foods,US Foods - beverage order,-834.09,Cost of Goods Sold,,obvious
+c3d2d2c6-ab50-4ff8-98e5-906cb307240b,2025-11-18,ent_004,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-3716.24,Payroll,,obvious
+a611dd9e-991f-4399-9d8e-5dc5b30431c0,2026-03-05,ent_003,ADP Payroll,ADP Payroll - payroll - salaried staff [1 of 2 - possible split to avoid approval threshold],-6202.0,Payroll,split_transaction,anomaly
+33b918a4-d317-4eeb-8402-590a367f8361,2026-04-19,ent_001,84 Lumber,84 Lumber - hardware order,-837.52,Materials & Supplies,,obvious
+997ca79d-79b1-4d47-a624-031bcb364137,2025-11-12,ent_003,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-1111.75,Materials & Supplies,,obvious
+c2a2de55-1c47-4d90-93e5-8262737aac75,2025-10-06,ent_001,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-1025.43,Bank Fees,,obvious
+30a831c6-0d24-4571-ba33-86c04bedbdcf,2025-07-21,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-119.18,Travel,,ambiguous
+5c221efe-3e43-45d2-9c46-fa06b115422a,2026-04-27,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-6191.75,Rent,,obvious
+8d9b7567-a86d-4526-9c6e-18f68b2e8497,2026-05-23,ent_004,Costco Wholesale,Costco Wholesale - cleaning supplies,-118.91,Office Supplies,,ambiguous
+a30ad739-12ba-461c-8d9f-ba3b24184afe,2026-04-15,ent_001,ADP Payroll,ADP Payroll - payroll - hourly staff,-14081.94,Payroll,,obvious
+4245b6b8-2087-4688-a87c-f1b14365bc5f,2025-11-20,ent_001,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-1365.68,Insurance,,obvious
+e76a83b3-4d05-42a3-b44d-f9ee4dc0883d,2025-09-03,ent_003,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-543.24,Insurance,,obvious
+dccef7b3-dd08-4d08-9d54-907680e7ca49,2025-08-14,ent_004,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-525.98,Insurance,,obvious
+e0c24dac-1fef-42c0-9417-149167a40046,2026-01-08,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-8789.15,Rent,,obvious
+386e0474-ea8b-43a0-87a9-30f0bbb37bcc,2025-12-27,ent_004,Square Payment,Square Payment - contractor invoice via Square,-2338.23,Subcontractor Payments,,ambiguous
+09019de9-756f-4e6b-b55f-81560bb40be3,2025-10-23,ent_001,Amazon,Amazon - site supplies,-1408.12,Materials & Supplies,,ambiguous
+f5b2a3c4-8728-4466-af49-bc18c3e639f6,2025-11-05,ent_001,Amazon,Amazon - folders,-142.6,Office Supplies,,ambiguous
+f21d35d3-15f5-4b6b-81b7-a108754176e3,2026-01-01,ent_001,National Grid,National Grid - water & sewer,-538.04,Utilities,,obvious
+6cd88d04-0913-4153-94b4-a061d3e1cc0d,2025-12-13,ent_001,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-2287.54,Professional Fees,,obvious
+e67f6dc3-1120-40cd-b84e-fd6cf1e5035c,2026-04-25,ent_001,Costco Wholesale,Costco Wholesale - staff lunch,-226.17,Meals & Entertainment,,ambiguous
+629a17d2-44ea-411a-88ea-606213481353,2025-11-15,ent_002,Gusto Payroll Services,Gusto Payroll Services - payroll - hourly staff,-7487.31,Payroll,,obvious
+fdccce8a-9cda-4f75-bcce-5c82a415a121,2026-04-15,ent_003,Westfield Property Management,Westfield Property Management - rent - storefront,-3440.47,Rent,,obvious
+f7375ec5-9205-4cdc-9034-b44b4f5f2a02,2025-11-29,ent_004,Square Payment,Square Payment - contractor invoice via Square [unusually large vs vendor history],-7604.15,Subcontractor Payments,outlier_amount,anomaly
+bd549f9b-d869-4fd3-9f61-a80f548994cc,2025-12-01,ent_004,Home Depot Pro,Home Depot Pro - building supply restock,-952.62,Materials & Supplies,,obvious
+151f8385-3bd6-421c-be0c-89e6dddafd09,2026-03-19,ent_003,Manual Journal Entry,Manual adjustment - owner draw adjustment,-1000,Subcontractor Payments,round_number_manual,anomaly
+7d80a811-d413-43e6-ae4b-33a95845efe5,2025-08-05,ent_001,Gusto Payroll Services,Gusto Payroll Services - payroll - salaried staff,-4892.87,Payroll,,obvious
+9a3bb249-a9b6-479e-a47c-93457ed1bbfc,2025-07-11,ent_001,Delta Air Lines,Delta Air Lines - client visit - rideshare,-934.09,Travel,,obvious
+f40840e4-df37-48da-bcb7-148e5fb1563b,2025-09-28,ent_004,ADP Payroll,ADP Payroll - biweekly payroll run,-10660.14,Payroll,,obvious
+a62cfb19-4edf-462e-952c-c1d6afbdd6ff,2026-05-05,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-640.91,Professional Fees,,obvious
+ded13899-ae53-444f-98f5-435140ce39d8,2026-03-12,ent_003,Square Payment,Square Payment - vendor payment via Square,-305.16,Cost of Goods Sold,,ambiguous
+a34922dd-a13d-4f8f-a684-fd0610bd0338,2025-07-12,ent_004,National Grid,National Grid - internet & phone service,-793.06,Utilities,,obvious
+aeb09d08-562e-4745-a999-85d6503bfc9c,2025-08-27,ent_004,Home Depot,Home Depot - lumber,-3903.31,Materials & Supplies,,ambiguous
+24ad77ae-3079-4d15-814f-6ce042378b4b,2025-12-11,ent_003,Summit Roofing LLC,Summit Roofing LLC - milestone payment,-513.3,Subcontractor Payments,,obvious
+74bdb50b-9c43-472f-ac49-bbb98406c7ed,2026-05-17,ent_002,US Foods,US Foods - beverage order,-106.3,Cost of Goods Sold,,obvious
+ea2c0854-0e54-49d6-8280-5586246320a5,2026-05-06,ent_004,Home Depot,Home Depot - hardware fix,-52.05,Repairs & Maintenance,,ambiguous
+f11d49f9-aa5d-4fb5-aba4-90052de44ae0,2026-05-13,ent_003,Sysco Foods,Sysco Foods - beverage order,-595.72,Cost of Goods Sold,,obvious
+dc7fce60-8a9c-4de1-9d6b-5890d0c4d838,2026-01-25,ent_004,Sysco Foods,Sysco Foods - bulk ingredient restock,-1348.63,Cost of Goods Sold,,obvious
+3ff52c54-c321-43d2-a31d-eb488cf1b4a6,2025-06-25,ent_002,Amazon,Amazon - commercial blender,-341.57,Equipment,,ambiguous
+c6ec6463-9606-48cb-9769-da77d5668653,2025-10-02,ent_001,Square Payment,Square Payment - contractor invoice via Square,-1000.98,Subcontractor Payments,,ambiguous
+0f246de6-36ec-4caf-89ec-cbe74c19fd34,2025-11-19,ent_001,Square Payment,Square Payment - contractor invoice via Square,-1355.22,Subcontractor Payments,,ambiguous
+898274e1-3d5f-4a91-bd65-29c446db93e3,2026-03-07,ent_001,Paychex Inc,Paychex Inc - biweekly payroll run,-8146.0,Payroll,,obvious
+019b2d58-a529-4494-8446-deb27cb26a39,2026-02-12,ent_003,Costco Wholesale,Costco Wholesale - cleaning supplies,-41.2,Office Supplies,,ambiguous
+80209b8e-4fa3-4aad-8e56-a7690919674b,2025-08-01,ent_004,Square Payment,Square Payment - vendor payment via Square [unusually large vs vendor history],-3934.63,Cost of Goods Sold,outlier_amount,anomaly
+5c54d29c-5d48-4b1a-8f81-f1a112b1fea0,2025-08-31,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-117.25,Repairs & Maintenance,,ambiguous
+322fdea1-9dca-4105-8621-74d929dd0de3,2026-04-12,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-472.05,Professional Fees,,obvious
+e8b1e522-0ed6-49cc-bed2-079a45f7c4e4,2025-07-13,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-5751.71,Rent,,obvious
+4effde0a-e03d-41b0-bf8c-c4f047a1282c,2025-09-01,ent_002,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-932.25,Travel,,obvious
+97fe9fa5-ff80-42e2-9ef3-de5bfc5661e4,2025-12-27,ent_002,ADP Payroll,Payroll run - processed Saturday (off-cycle),-5839.94,Payroll,off_hours_payroll,anomaly
+935e2ce7-2e8e-4c01-8aaa-6bcd0e2f77fd,2025-10-12,ent_003,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1611.4,Travel,,obvious
+e7da5684-ae04-4cdc-8a00-5e70078d4c13,2026-06-18,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-117.23,Repairs & Maintenance,,ambiguous
+909a8d1b-c2ad-47f5-b152-95f5533e42ea,2025-10-25,ent_003,Marriott Hotels,Marriott Hotels - conference travel,-2209.37,Travel,,obvious
+ec0994cb-6e6d-4abc-bf09-ace26bf75d13,2026-06-03,ent_001,National Grid,National Grid - monthly electric bill,-270.22,Utilities,,obvious
+ac37fad6-d32a-4341-8c6e-6b8542486592,2025-10-12,ent_004,Uber Trip,Uber Trip - conference travel,-1100.99,Travel,,obvious
+3c741e75-6088-4803-b907-f7b30984fd9a,2026-02-21,ent_003,Costco Wholesale,Costco Wholesale - paper goods,-34.56,Office Supplies,,ambiguous
+81cb9c23-cba7-417f-80ec-830401cc7483,2025-06-25,ent_002,Home Depot,Home Depot - generator,-2440.86,Equipment,,ambiguous
+065f2533-1f6f-4cac-ad83-d487605646d1,2026-01-29,ent_002,Square Payment,Square Payment - vendor payment via Square,-257.46,Cost of Goods Sold,,ambiguous
+e8f39d1a-7ef4-4f09-8b80-67c66071cb10,2026-01-20,ent_003,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-2292.0,Professional Fees,,obvious
+d91fdf84-c72c-4b91-9448-0c4ae9a96a8a,2025-11-06,ent_001,Costco Wholesale,Costco Wholesale - beverages,-680.77,Cost of Goods Sold,,ambiguous
+ab3c01a3-8de9-414e-9934-9a47588050da,2025-07-19,ent_004,Home Depot,Home Depot - power tools,-960.43,Equipment,,ambiguous
+6bde3fe0-57e9-46c1-8f1b-eb763eb6323d,2025-06-22,ent_004,Amazon,Amazon - printer ink,-53.83,Office Supplies,,ambiguous
+4f99371a-a2f2-4c0a-a325-b36e4005825d,2025-12-13,ent_001,Home Depot Pro,Home Depot Pro - hardware order,-1135.81,Materials & Supplies,,obvious
+eda8b7c2-98e3-4e05-961f-cb4412fdfcfd,2026-02-11,ent_003,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-8798.46,Payroll,,obvious
+e9d7b51f-27cb-4656-bb09-e025cb0ca0ee,2026-01-27,ent_004,Delta Air Lines,Delta Air Lines - business trip - flight,-734.5,Travel,,obvious
+45aba54b-28e9-452b-897f-690d1b7d2de5,2026-02-11,ent_002,Costco Wholesale,Costco Wholesale - staff lunch,-250.22,Meals & Entertainment,,ambiguous
+47fd20bc-140a-4abe-89a8-da8fd7db1a9a,2025-10-30,ent_001,Marcum LLP Accounting,Marcum LLP Accounting - monthly retainer,-562.42,Professional Fees,,obvious
+a0579895-5b89-4276-b352-e6e5e9d2b6d3,2025-10-04,ent_001,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - overdraft fee,-1014.0,Bank Fees,,obvious
+3c66d634-4dfb-44ec-ac5c-875a38b6147c,2026-03-23,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle [1 of 2 - possible split to avoid approval threshold],-42.99,Repairs & Maintenance,split_transaction,anomaly
+e8242ecf-fddc-4bd4-a630-923c61c0fcfc,2026-02-20,ent_003,Microsoft 365,Microsoft 365 - cloud hosting charge,-2041.29,Software & Subscriptions,,obvious
+87e5e188-3030-4cd3-b0f5-67f210a63887,2025-10-27,ent_004,Meta Ads,Meta Ads - local promo campaign,-2176.03,Marketing,,obvious
+498d5aef-d535-4852-8775-8fc55c3bb92a,2025-11-03,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - rent - storefront,-7439.2,Rent,,obvious
+43d2d4e0-aaa5-49ec-a135-37e272a29581,2026-03-17,ent_004,Toast POS,Toast POS - monthly subscription,-348.62,Software & Subscriptions,,obvious
+15f3c29e-47cc-4e27-a0fd-4194fd723aed,2026-02-22,ent_003,Delta Air Lines,Delta Air Lines - business trip - flight,-1637.7,Travel,,obvious
+caa34214-f0da-4da8-9ff3-f456db0195b1,2025-08-28,ent_001,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-2418.34,Materials & Supplies,,obvious
+f24738cc-2783-4cd2-9684-9cb02e22418d,2025-09-21,ent_003,Local Farms Co-op,Local Farms Co-op - beverage order,-59.01,Cost of Goods Sold,,obvious
+6e48ac04-dee1-4bc1-95ab-bf65e6091532,2025-09-06,ent_002,Chase Business Banking Fee,Chase Business Banking Fee - overdraft fee,-2212.9,Bank Fees,,obvious
+393bef95-5a27-4103-97c0-de12dce0c1a6,2025-07-16,ent_002,Amazon,Amazon - mixer,-1378.44,Equipment,,ambiguous
+4a23d442-8478-41c1-88b6-7cd8330b5cc2,2025-07-06,ent_003,Downtown Realty Holdings,Downtown Realty Holdings - rent - storefront,-4235.36,Rent,,obvious
+d9538951-e616-4937-a748-b36384dcfd83,2026-03-07,ent_004,Costco Wholesale,Costco Wholesale - staff lunch,-84.81,Meals & Entertainment,,ambiguous
+a0a1929d-3856-44bc-93bd-5cee6baf00ec,2025-09-03,ent_002,Uber Trip,Uber Trip - business trip - flight [unusually large vs vendor history],-5220.79,Travel,outlier_amount,anomaly
+b57f936a-fcf4-4bf7-841c-58ddd319777a,2026-06-01,ent_002,Uber Trip,Uber Trip - conference travel,-288.08,Travel,,obvious
+4b93551f-28fc-4d3f-8b09-ef8891d997ad,2026-01-15,ent_001,Uber Trip,Uber Trip - client visit - rideshare,-1735.63,Travel,,obvious
+8fe66cdb-e292-4a1b-a4ad-717604aaef74,2026-05-26,ent_004,National Grid,National Grid - internet & phone service,-1304.54,Utilities,,obvious
+4e4e5301-fcd5-44b7-90b3-54318ac517c9,2026-05-12,ent_003,Gusto Payroll Services,Gusto Payroll Services - payroll - salaried staff,-3281.12,Payroll,,obvious
+c3d1962d-7781-4c0b-b06f-fed0a1b2b727,2026-05-13,ent_004,Home Depot,Home Depot - lumber,-1920.48,Materials & Supplies,,ambiguous
+632f2e6f-1170-4a60-afe1-f43ea2eb0b22,2026-04-20,ent_002,Square Payment,Square Payment - contractor invoice via Square,-343.65,Subcontractor Payments,,ambiguous
+da92a62e-c92e-4c0c-a69d-8428d2f3d005,2026-01-05,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-91.18,Bank Fees,,obvious
+469e1cfd-1ac0-447d-ae94-25b1e74ada6e,2025-10-09,ent_004,Google Ads,Google Ads - social media ads,-2200.11,Marketing,,obvious
+513980fc-2d56-43b2-8722-b6d91477452d,2026-04-10,ent_004,Shell Gas Station,Shell Gas Station - fuel - business trip,-47.58,Travel,,ambiguous
+81334239-401b-457f-b350-12b8f0f527c4,2026-04-27,ent_003,Apex Electrical Contracting,Apex Electrical Contracting - subcontractor invoice,-675.88,Subcontractor Payments,,obvious
+0004a20b-a0c1-449a-a8a3-b025fae340dd,2025-11-20,ent_004,84 Lumber,84 Lumber - hardware order,-403.22,Materials & Supplies,,obvious
+b7824329-0f8f-416c-aab4-daa231bea0dd,2025-09-10,ent_003,84 Lumber,84 Lumber - hardware order,-39.4,Materials & Supplies,,obvious
+fdbd3e11-d784-4132-b39e-6a4e5e555666,2026-02-21,ent_002,ADP Payroll,Payroll run - processed Saturday (off-cycle),-3850.5,Payroll,off_hours_payroll,anomaly
+720f0e53-7c4f-4078-b320-7d0b7f52aca0,2026-06-01,ent_003,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-366.65,Subcontractor Payments,,obvious
+2613cabb-e913-45d3-adf4-2333c3db017d,2025-12-09,ent_004,Slack,Slack - annual license renewal,-2176.66,Software & Subscriptions,,obvious
+8ccb4cc8-8cb1-4610-98a4-29180b746b7d,2025-10-22,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-1760.81,Bank Fees,,obvious
+84126c0c-b36a-4d19-9852-797299b8c029,2025-08-26,ent_001,Gusto Payroll Services,Gusto Payroll Services - payroll - salaried staff,-6610.93,Payroll,,obvious
+59b70ee9-2171-4e78-a203-95083c36c45c,2026-06-17,ent_004,Verizon Fios,Verizon Fios - internet & phone service,-709.91,Utilities,,obvious
+fd73fdb6-9479-4e59-9619-37234c16f7ce,2026-03-26,ent_003,Amazon,Amazon - pens,-98.63,Office Supplies,,ambiguous
+825d09d4-b8e0-4ace-97b2-67634db72c63,2026-03-17,ent_002,Meta Ads,Meta Ads - social media ads,-736.31,Marketing,,obvious
+2782eca7-deb7-46b8-916a-10f6e3af7336,2026-01-23,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - monthly retainer,-1659.93,Professional Fees,,obvious
+2f98eba9-4a05-4c38-8e6e-9cf35bbb8ecc,2026-02-19,ent_003,84 Lumber,84 Lumber - hardware order,-2049.59,Materials & Supplies,,obvious
+7e4cb911-ce67-4254-bf88-ff1b9c33523f,2025-12-24,ent_001,Paychex Inc,Paychex Inc - biweekly payroll run,-4986.85,Payroll,,obvious
+7eb851b5-b251-47f8-b3c5-f61e5179c31b,2025-09-27,ent_004,Square Payment,Square Payment - contractor invoice via Square,-2894.65,Subcontractor Payments,,ambiguous
+588653dc-199f-4374-9709-883df6b071a4,2026-02-01,ent_003,Costco Wholesale,Costco Wholesale - produce,-841.24,Cost of Goods Sold,,ambiguous
+1aa7fdd6-d539-495a-90ea-a07581ef1131,2025-08-23,ent_002,National Grid,National Grid - internet & phone service,-1220.81,Utilities,,obvious
+20def468-eed3-4127-b5b1-f9668ff608d3,2025-09-08,ent_004,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight [1 of 2 - possible split to avoid approval threshold],-522.4,Travel,split_transaction,anomaly
+28793e8c-cbcc-4087-b9f3-77f4db29f85f,2025-09-10,ent_003,Square Payment,Square Payment - contractor invoice via Square,-4862.32,Subcontractor Payments,,ambiguous
+2e4a7ca2-084b-4bc9-8ecf-de313b34b6cb,2025-09-15,ent_002,Restaurant Depot,Restaurant Depot - bulk ingredient restock,-1298.15,Cost of Goods Sold,,obvious
+5bcfb9a0-fce4-499f-9d7c-0b120492d906,2025-08-27,ent_001,Yelp Ads,Yelp Ads - ad campaign spend,-1487.68,Marketing,,obvious
+d6617ef1-1ed9-4e43-a659-c8d858d7b512,2026-03-31,ent_003,84 Lumber,84 Lumber - building supply restock,-490.79,Materials & Supplies,,obvious
+965fe21f-6e1a-4e7a-82d2-35d87d299526,2025-07-31,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-2446.28,Professional Fees,,obvious
+b06055c6-299a-4fc1-abb3-3fb5bb036ba7,2026-02-26,ent_002,Home Depot,Home Depot - generator,-496.46,Equipment,,ambiguous
+632cc2b2-f499-4123-a736-e7da6ef104dd,2025-12-14,ent_002,Westfield Property Management,Westfield Property Management - rent - storefront,-6101.14,Rent,,obvious
+8afec714-8a68-4f0f-bbdc-bac80c491890,2026-01-20,ent_001,Amazon,Amazon - tools,-2004.14,Equipment,,ambiguous
+c97a4ec7-2786-4fe2-a7c7-0aa775f0e64b,2026-02-11,ent_001,Paychex Inc,Paychex Inc - biweekly payroll run,-12296.71,Payroll,,obvious
+73ab86b9-cc82-40de-a16c-c5a3bb8d76b2,2026-03-13,ent_002,Home Depot,Home Depot - power tools,-1502.55,Equipment,,ambiguous
+2d24b7b3-6033-4b1a-9d0e-ee857dde31a4,2026-05-27,ent_002,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1398.51,Subcontractor Payments,,obvious
+52406c72-4e5d-422d-b661-32cee4de0b22,2025-12-15,ent_003,Square Payment,Square Payment - contractor invoice via Square [1 of 2 - possible split to avoid approval threshold],-1686.68,Subcontractor Payments,split_transaction,anomaly
+f1c8e271-93d4-40ee-98b3-d0ddda15fe94,2026-04-03,ent_001,Amazon,Amazon - tools,-1800.96,Equipment,,ambiguous
+e502747c-dd90-43e7-800f-9a30dbda1a84,2026-02-22,ent_001,Local Farms Co-op,Local Farms Co-op - produce delivery,-2109.51,Cost of Goods Sold,,obvious
+13bed472-d343-4289-97fb-9bf4d82eb1d2,2025-10-04,ent_003,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-276.93,Materials & Supplies,duplicate,anomaly
+6e9eb714-9d68-4875-a7e0-ea8442212d63,2025-08-14,ent_001,Manual Journal Entry,Manual adjustment - owner draw adjustment,-500,Equipment,round_number_manual,anomaly
+bbaf04ee-d0d7-4103-98e5-e020ff268815,2026-03-26,ent_002,84 Lumber,84 Lumber - job site materials,-1719.58,Materials & Supplies,,obvious
+d7987fdd-b860-41d4-bcfc-05bdc172009d,2026-05-09,ent_003,Square Payment,Square Payment - contractor invoice via Square,-2290.8,Subcontractor Payments,,ambiguous
+08bbf23a-99e2-45f5-bbd4-b6f58154ed29,2026-03-13,ent_001,Yelp Ads,Yelp Ads - ad campaign spend,-1335.9,Marketing,,obvious
+23964977-b550-4dc7-8e38-db2a302856a4,2025-09-03,ent_003,Square Payment,Square Payment - vendor payment via Square,-436.9,Cost of Goods Sold,,ambiguous
+e379d77c-a12f-4194-8124-04c13115685c,2025-11-20,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-1769.42,Professional Fees,,obvious
+1f69c8b2-bce4-423d-9da0-8587d825542d,2026-02-05,ent_001,Home Depot,Home Depot - generator,-2236.3,Equipment,,ambiguous
+fbadf543-e749-4cde-9312-71728127842b,2026-02-17,ent_004,Costco Wholesale,Costco Wholesale - produce,-1402.29,Cost of Goods Sold,,ambiguous
+832e29e7-0199-4334-a528-11f8b0eaf05f,2025-08-09,ent_003,Yelp Ads,Yelp Ads - social media ads,-360.44,Marketing,,obvious
+5047726c-1365-4671-a1fe-0953354e0c7c,2025-08-12,ent_004,Yelp Ads,Yelp Ads - social media ads,-1500.49,Marketing,,obvious
+f0736760-269f-4639-a647-bc944e4ea960,2025-09-22,ent_002,Square Payment,Square Payment - vendor payment via Square,-527.12,Cost of Goods Sold,,ambiguous
+c4a00f9b-e6e6-4468-a58b-6418c43a35a6,2025-10-06,ent_002,Home Depot,Home Depot - concrete,-689.94,Materials & Supplies,,ambiguous
+e0ea415a-9f9a-4aea-9749-c1200a37e9b4,2025-12-25,ent_003,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-7141.92,Rent,,obvious
+6c9421f9-637a-4012-964f-76ab20619928,2026-04-15,ent_001,Amazon,Amazon - pens,-168.62,Office Supplies,,ambiguous
+74540287-32e7-4b47-a240-630d2d85a9ff,2026-05-05,ent_004,Home Depot,Home Depot - lumber,-1207.03,Materials & Supplies,,ambiguous
+4e8209ee-3de1-4b5c-a5de-0450eff47760,2026-01-18,ent_002,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-1685.79,Travel,,obvious
+c00c69f2-de2e-434c-8442-1b262510c6ba,2026-05-02,ent_004,Verizon Fios,Verizon Fios - water & sewer,-492.22,Utilities,,obvious
+f5311fae-675f-4d54-b7fa-101fe6aacfbb,2026-04-13,ent_004,Local Farms Co-op,Local Farms Co-op - beverage order,-1402.07,Cost of Goods Sold,,obvious
+8cf55697-b26f-4dc0-a467-07e394e08e58,2025-09-05,ent_004,AWS,AWS - monthly subscription,-1156.55,Software & Subscriptions,,obvious
+95cd981f-df8f-4912-b5d3-4ed122182b6f,2026-02-21,ent_002,Paychex Inc,Paychex Inc - biweekly payroll run,-15195.79,Payroll,,obvious
+8a1c71f8-5302-40ba-8e06-f81bca72768b,2025-09-03,ent_002,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-969.48,Subcontractor Payments,,obvious
+6d909d0b-8115-4027-a940-688d91170902,2025-07-11,ent_002,Summit Roofing LLC,Summit Roofing LLC - milestone payment,-2377.95,Subcontractor Payments,,obvious
+cc4f787d-ab67-4f44-93b4-2e76c2412bca,2025-12-28,ent_003,Square Payment,Square Payment - vendor payment via Square,-410.03,Cost of Goods Sold,,ambiguous
+f7f2eff8-294b-4656-a32a-7df748a7eece,2026-06-19,ent_003,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-682.59,Insurance,,obvious
+1b65fdb9-3c09-4add-815f-585ab2c52827,2025-09-11,ent_001,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-1634.27,Professional Fees,,obvious
+5dcf9ff6-abe8-47d6-b725-6ba7213fa096,2025-11-25,ent_003,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-945.17,Travel,,obvious
+634c7fc3-283c-41fc-a8aa-b2c396d41200,2026-01-06,ent_001,Square Payment,Square Payment - contractor invoice via Square,-2801.72,Subcontractor Payments,,ambiguous
+1b4739f4-ebe7-4576-9274-4f0423043641,2025-09-06,ent_001,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-1304.01,Professional Fees,,obvious
+27653377-5c82-448a-94b7-3cd74dcf7284,2025-06-20,ent_003,ConEd,ConEd - water & sewer,-2328.45,Utilities,,obvious
+45c81671-8ad1-4aa7-a8b8-f52e8756d45c,2025-08-13,ent_001,Uber Trip,Uber Trip - business trip - flight,-1381.03,Travel,,obvious
+c1070d9b-9160-4cd6-938e-225e6107fd0f,2026-02-06,ent_001,Home Depot,Home Depot - lumber,-1233.53,Materials & Supplies,,ambiguous
+cf45398c-4a64-4483-bb7a-d77bc264ce5a,2025-09-07,ent_003,National Grid,National Grid - internet & phone service,-274.93,Utilities,,obvious
+28705b27-41de-4b0f-a564-4f17b9e098e3,2025-11-04,ent_004,Square Payment,Square Payment - vendor payment via Square,-113.1,Cost of Goods Sold,,ambiguous
+310549fd-3cfc-46ba-a254-1873df1f9f85,2026-04-01,ent_002,Restaurant Depot,Restaurant Depot - produce delivery [1 of 2 - possible split to avoid approval threshold],-822.23,Cost of Goods Sold,split_transaction,anomaly
+2783476c-c3ab-4c58-a8c5-15e91eba3989,2026-02-12,ent_002,GitHub,GitHub - annual license renewal,-2117.92,Software & Subscriptions,,obvious
+6a994f9e-d053-4330-8012-bb810ba5668c,2026-04-21,ent_003,US Foods,US Foods - produce delivery,-2405.95,Cost of Goods Sold,,obvious
+a7e567a1-5789-4782-a26b-af17a277a7f9,2025-06-21,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-6315.73,Rent,,obvious
+2c7b7216-3553-40ff-a20e-631ccab77f8c,2025-11-30,ent_002,Chase Business Banking Fee,Chase Business Banking Fee - monthly account fee,-775.55,Bank Fees,,obvious
+e3439c13-f91a-47c5-96b4-12931273cc01,2025-08-25,ent_003,Costco Wholesale,Costco Wholesale - cleaning supplies,-66.26,Office Supplies,,ambiguous
+28127011-6b64-4526-9fe0-cf201d3692b0,2025-10-12,ent_001,Costco Wholesale,Costco Wholesale - team event catering,-295.78,Meals & Entertainment,,ambiguous
+713b1d0d-a555-4e22-b581-6aa10525c906,2025-09-10,ent_003,Paychex Inc,Paychex Inc - payroll - salaried staff,-17824.97,Payroll,,obvious
+45eee3a6-5d51-4332-97dd-58210708fb91,2025-07-13,ent_001,Costco Wholesale,Costco Wholesale - staff lunch,-216.87,Meals & Entertainment,,ambiguous
+68fed7c3-2713-47ff-b7e7-44f155020af4,2026-01-24,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-8688.12,Payroll,off_hours_payroll,anomaly
+118cb1ff-83f6-44f0-88fe-53d547a51ba3,2026-05-22,ent_004,Restaurant Depot,Restaurant Depot - beverage order,-700.9,Cost of Goods Sold,,obvious
+f394221b-e8a9-4130-a3b1-45b58d2a61e2,2025-08-03,ent_004,State Farm Commercial,State Farm Commercial - monthly premium,-1488.4,Insurance,,obvious
+fb2fb846-b7b2-4d76-911d-6e738d9b46b8,2026-01-03,ent_001,Amazon,Amazon - pens,-137.72,Office Supplies,,ambiguous
+bb93fd29-325c-4ec3-bc56-9d2254217e79,2026-05-08,ent_003,Verizon Fios,Verizon Fios - monthly electric bill,-1667.64,Utilities,,obvious
+3aa1eff4-a3df-4f2a-af2b-85704e10bf6d,2025-11-30,ent_004,Yelp Ads,Yelp Ads - social media ads,-132.64,Marketing,,obvious
+2832ff16-d1f7-498b-bbf7-d2768eac257c,2025-11-12,ent_001,AWS,AWS - annual license renewal,-908.99,Software & Subscriptions,,obvious
+6e3f7040-7c8f-4385-a453-ec63f323d2e1,2026-04-11,ent_003,Shell Gas Station,Shell Gas Station - fuel - business trip,-109.67,Travel,,ambiguous
+9a46f335-751f-4dce-8eda-3e7a27e0b5f3,2025-09-09,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-4775.74,Rent,,obvious
+27d63cfd-3c2f-4051-82ad-f731322e1d6a,2026-01-13,ent_001,Manual Journal Entry,Manual adjustment - reclass entry,-1000,Materials & Supplies,round_number_manual,anomaly
+a94cff73-4799-4f2b-8214-f6404819295d,2025-06-28,ent_002,Delta Air Lines,Delta Air Lines - business trip - flight,-1392.33,Travel,,obvious
+a7af729c-b61c-4e98-b71d-f87c639fb703,2025-08-03,ent_001,Square Payment,Square Payment - vendor payment via Square,-292.05,Cost of Goods Sold,,ambiguous
+c7585f0e-008b-487c-8c5a-e23a0c9dcd9d,2025-11-13,ent_004,Home Depot,Home Depot - power tools,-1838.77,Equipment,,ambiguous
+3bc79dd0-3db5-49fe-a29d-de30cb8a195c,2026-04-18,ent_003,Meta Ads,Meta Ads - local promo campaign,-2117.81,Marketing,,obvious
+6df7ec7c-a538-4230-b8f4-27211634c8dd,2026-01-13,ent_002,Square Payment,Square Payment - contractor invoice via Square,-2136.44,Subcontractor Payments,,ambiguous
+b69f7329-1e02-4e08-88cc-be39d71ff407,2025-09-22,ent_003,Home Depot,Home Depot - site materials,-1315.58,Materials & Supplies,,ambiguous
+c61aa05f-18ec-4184-ad75-45797ac1dee8,2025-11-11,ent_002,Home Depot,Home Depot - power tools,-1450.83,Equipment,,ambiguous
+58c1896e-c9a6-491a-a348-c4869c72dc90,2026-01-16,ent_002,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-330.42,Subcontractor Payments,,obvious
+f886e763-ac4e-4d44-82dd-c27ace3e0d30,2025-10-16,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-2498.45,Bank Fees,,obvious
+d942093a-9d2e-4526-b6f7-38928c54d6a6,2025-10-02,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-1695.56,Bank Fees,,obvious
+6597f797-72b8-4d68-a646-7c99281d31e6,2025-10-01,ent_001,84 Lumber,84 Lumber - job site materials [unusually large vs vendor history],-2207.99,Materials & Supplies,outlier_amount,anomaly
+da51e6c9-b285-4aca-b135-33050cfb0c35,2025-07-12,ent_001,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-846.6,Bank Fees,,obvious
+8fbb58ea-e331-4e16-8179-3f090069d039,2026-05-29,ent_001,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer,-747.74,Professional Fees,,obvious
+96a58ee9-9ba7-4999-aafa-172c6496a4f5,2026-05-28,ent_001,Home Depot,Home Depot - concrete [unusually large vs vendor history],-12383.77,Materials & Supplies,outlier_amount,anomaly
+5c9b484d-07d9-4e3b-b64c-1fc36e582853,2025-06-30,ent_004,Home Depot,Home Depot - hardware fix,-580.39,Repairs & Maintenance,,ambiguous
+6e6f502b-428e-4cb9-9e99-704ebfe0c2b2,2026-04-01,ent_002,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment,-1657.86,Subcontractor Payments,,obvious
+bc17bc76-5506-4f0a-8698-dc35a37f65f6,2026-05-15,ent_001,ConEd,ConEd - monthly electric bill,-2151.9,Utilities,,obvious
+935a58a8-f784-401b-89a6-a2c5ed23aa88,2025-11-27,ent_001,Costco Wholesale,Costco Wholesale - bulk ingredients,-1486.94,Cost of Goods Sold,,ambiguous
+5b24b283-44cd-4c43-97d6-ee1e40f770d0,2025-08-27,ent_003,Home Depot,Home Depot - concrete,-3810.97,Materials & Supplies,,ambiguous
+3bfce4ae-2953-49ee-8fa7-214473d0adb2,2025-07-02,ent_002,Paychex Inc,Paychex Inc - biweekly payroll run,-14143.22,Payroll,,obvious
+16a12fbd-12ba-456a-b874-a24c553ad9b5,2026-05-16,ent_002,84 Lumber,84 Lumber - hardware order,-2200.73,Materials & Supplies,,obvious
+b8af33e7-bbfa-4a3b-9bab-0be2e7ab17e7,2026-01-20,ent_001,Ferguson Building Materials,Ferguson Building Materials - hardware order,-345.9,Materials & Supplies,,obvious
+4b2d6652-2408-4c85-9738-0a8cea5d47e1,2025-11-07,ent_001,Summit Roofing LLC,Summit Roofing LLC - subcontractor invoice,-786.15,Subcontractor Payments,,obvious
+29450fe5-003e-48c3-93d0-373d03496993,2026-03-08,ent_002,Home Depot,Home Depot - hardware fix,-282.43,Repairs & Maintenance,,ambiguous
+fb176e06-c6b6-4c61-8643-4299903f2831,2026-03-16,ent_003,Home Depot,Home Depot - power tools,-1216.9,Equipment,,ambiguous
+70270220-6f7d-49eb-8ef0-463ebae3ca1f,2025-10-10,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-91.69,Repairs & Maintenance,,ambiguous
+1e25c4fd-2152-4b48-be4d-7819ed998462,2025-09-07,ent_002,Meta Ads,Meta Ads - local promo campaign,-417.14,Marketing,,obvious
+9304c6fb-ae42-4a05-93a4-12d35aa68449,2026-01-27,ent_004,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-944.67,Bank Fees,,obvious
+0bedabdc-721d-4e03-9346-a81686eee07e,2025-07-30,ent_001,Costco Wholesale,Costco Wholesale - paper goods,-147.89,Office Supplies,,ambiguous
+34cdb7c6-b69b-4abd-b9b6-5a384fd537fb,2026-04-12,ent_002,Amazon,Amazon - tools,-2186.79,Equipment,,ambiguous
+ff7363c3-c151-47cb-9637-f38bcd78cab0,2025-08-29,ent_004,Google Ads,Google Ads - social media ads [unusually large vs vendor history],-19935.46,Marketing,outlier_amount,anomaly
+58b4c7ec-9eb3-4bd0-b4c2-f52d6a5c2da2,2025-12-20,ent_001,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-1236.7,Subcontractor Payments,,obvious
+8bb24266-3a96-4369-8c0a-101b77948fa5,2025-07-06,ent_003,Meta Ads,Meta Ads - local promo campaign,-1807.39,Marketing,,obvious
+12c6d1a5-6413-479a-84e3-0dc0d5664696,2026-06-09,ent_001,Google Ads,Google Ads - local promo campaign,-2021.15,Marketing,,obvious
+1a100afa-55da-41ef-bd1c-4db6fa6c00a2,2026-02-19,ent_004,Square Payment,Square Payment - contractor invoice via Square,-3404.81,Subcontractor Payments,,ambiguous
+72eadacf-1aaa-4d52-bfa8-c3010b2ae2c9,2025-07-28,ent_003,Ferguson Building Materials,Ferguson Building Materials - hardware order,-1022.97,Materials & Supplies,,obvious
+70403faa-22f7-4644-afc2-be2c5963b077,2026-01-22,ent_001,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-539.93,Professional Fees,,obvious
+deebc7af-0b5c-4560-ac57-07345385b1cf,2026-05-19,ent_002,Marriott Hotels,Marriott Hotels - client visit - rideshare,-1242.95,Travel,,obvious
+579ed26a-eb8c-4139-91a9-9aa98b3d5d6e,2026-03-28,ent_004,Microsoft 365,Microsoft 365 - cloud hosting charge,-1999.39,Software & Subscriptions,,obvious
+ed8d25bb-f544-465f-8ee8-e3131205d7f9,2025-06-26,ent_004,Google Ads,Google Ads - ad campaign spend,-1599.14,Marketing,,obvious
+6d3086fe-ab64-4980-a662-beee78258a6a,2026-04-27,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-51.86,Travel,,ambiguous
+8f3eee31-dde1-452a-81bb-206f0e96863a,2026-04-20,ent_002,PSE&G,PSE&G - monthly electric bill [unusually large vs vendor history],-22486.59,Utilities,outlier_amount,anomaly
+334936b1-9a9b-4e60-bb50-fbe81df27763,2025-09-18,ent_001,Amazon,Amazon - POS tablet [unusually large vs vendor history],-18695.92,Equipment,outlier_amount,anomaly
+310c8f2b-3b1a-4bbe-a854-91b6eb83f6f6,2025-11-09,ent_001,Home Depot,Home Depot - lumber,-1425.89,Materials & Supplies,,ambiguous
+3c81b179-93c0-4574-858c-ccc0b4c0f873,2026-02-03,ent_002,Costco Wholesale,Costco Wholesale - staff lunch,-106.28,Meals & Entertainment,,ambiguous
+a25b7f4b-277a-45ba-a0dc-0e189a0468e1,2025-10-18,ent_002,Home Depot,Home Depot - site materials,-1765.57,Materials & Supplies,,ambiguous
+7ca51722-d1f7-45a3-a38a-ff1d76f06d85,2026-01-10,ent_003,ADP Payroll,Payroll run - processed Saturday (off-cycle),-5958.86,Payroll,off_hours_payroll,anomaly
+7373dd91-ba3f-4525-a667-1274d8c0323f,2025-09-12,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-2491.65,Bank Fees,,obvious
+3a28d042-c652-44f3-9ef8-184dc2495fcb,2025-07-29,ent_004,Costco Wholesale,Costco Wholesale - bulk ingredients,-241.18,Cost of Goods Sold,,ambiguous
+26313049-c8cb-47ef-a2bd-5ab467ca259c,2025-11-18,ent_004,Amazon,Amazon - site supplies,-972.28,Materials & Supplies,,ambiguous
+d4d8dd32-7e07-4dc9-8a5e-ab3190d688c0,2025-07-25,ent_001,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium [1 of 2 - possible split to avoid approval threshold],-319.87,Insurance,split_transaction,anomaly
+7623b809-6559-4a88-8d43-8ac52103808c,2026-04-24,ent_002,Google Ads,Google Ads - social media ads,-498.17,Marketing,,obvious
+1efd0241-9eb8-452e-a319-8617d2dccf00,2026-01-01,ent_001,Paychex Inc,Paychex Inc - payroll - hourly staff,-3661.3,Payroll,,obvious
+2297d7fb-bdbe-4a3a-a4e3-9f8bb580f4e9,2025-07-18,ent_004,Home Depot,Home Depot - power tools,-1295.57,Equipment,,ambiguous
+839a2d62-276e-4067-8c8b-3091eb76f7b9,2025-09-21,ent_003,Ferguson Building Materials,Ferguson Building Materials - hardware order,-2074.16,Materials & Supplies,,obvious
+0224f8bd-6c3f-4898-8687-b0c894e570eb,2025-11-02,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-114.13,Travel,,ambiguous
+ca694da4-ac45-45a4-9590-b59e1f0b9b91,2025-11-30,ent_003,Paychex Inc,Paychex Inc - payroll - salaried staff,-16436.41,Payroll,,obvious
+275dc40f-b8db-49e0-a976-75ca0aeb5109,2025-09-20,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-2135.77,Payroll,off_hours_payroll,anomaly
+0fc6feb1-5d4c-41c9-b851-c4e6a947d524,2025-09-04,ent_001,Restaurant Depot,Restaurant Depot - produce delivery,-2472.28,Cost of Goods Sold,,obvious
+e05e8ae6-fa74-4ca9-bfab-3596d13c8ca1,2026-06-04,ent_002,Google Ads,Google Ads - social media ads [1 of 2 - possible split to avoid approval threshold],-1175.17,Marketing,split_transaction,anomaly
+08df751c-7c5a-40cf-a66f-434557b5131d,2026-03-02,ent_002,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-709.12,Professional Fees,,obvious
+e7c84c0b-eb47-4901-beb4-715a196de1db,2026-03-18,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-6052.55,Rent,,obvious
+aba858bd-6203-4ec7-9e63-d48d0aa3d6ef,2025-07-17,ent_003,Square Payment,Square Payment - vendor payment via Square,-376.66,Cost of Goods Sold,,ambiguous
+fb8086c8-b60f-47fb-b42d-2a5e3c13ec66,2026-05-23,ent_001,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1358.6,Insurance,,obvious
+d7dd25ef-747f-46e9-b941-3084bc63d455,2025-11-30,ent_003,Costco Wholesale,Costco Wholesale - produce,-1337.85,Cost of Goods Sold,,ambiguous
+8f05b021-9989-4f8b-9564-50537803968f,2025-09-01,ent_001,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1634.8,Subcontractor Payments,,obvious
+beec797d-9086-452a-bf80-2c3c37c7918f,2026-05-11,ent_004,PSE&G,PSE&G - monthly electric bill,-839.05,Utilities,,obvious
+f6ba2ffb-e494-4a04-b908-132a5447ed6b,2026-04-22,ent_001,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-645.95,Bank Fees,,obvious
+eed3dda3-de1e-4a0f-b786-e33c52c92400,2025-06-23,ent_003,US Foods,US Foods - produce delivery,-37.83,Cost of Goods Sold,,obvious
+371d6b2a-083a-4522-afbe-a72544914224,2025-06-20,ent_004,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment,-1110.88,Subcontractor Payments,,obvious
+438c4c3d-a5e1-4a91-a59d-d029249a29f9,2026-05-01,ent_004,Delta Air Lines,Delta Air Lines - conference travel,-2401.07,Travel,,obvious
+f04df8ad-53a9-4495-aa02-4b4197aaf20a,2026-03-17,ent_004,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1581.81,Bank Fees,,obvious
+e1331444-4cb2-41cc-9db9-3c10d440d13a,2026-04-24,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-91.91,Repairs & Maintenance,,ambiguous
+db7a9348-1fd8-43c9-bd6c-d11176bbbb61,2025-07-03,ent_003,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment,-1467.58,Subcontractor Payments,,obvious
+2530a7c5-9fa4-47ae-b11c-e23dba7bcd15,2025-12-15,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - overdraft fee,-361.48,Bank Fees,,obvious
+8fd907d4-d659-47b2-8529-a4b86b53b686,2025-06-29,ent_002,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-1682.81,Insurance,,obvious
+0d2d5a80-f8fc-4491-9fe6-5be5d5aa4731,2026-01-15,ent_003,Home Depot,Home Depot - concrete [unusually large vs vendor history],-17476.26,Materials & Supplies,outlier_amount,anomaly
+cedb5d73-1b28-4de1-8697-8b9acc1325ac,2026-02-13,ent_003,Costco Wholesale,Costco Wholesale - bulk ingredients,-643.15,Cost of Goods Sold,,ambiguous
+7f2372c7-faf1-42c2-a3a8-449011173037,2026-03-14,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-5600.16,Payroll,off_hours_payroll,anomaly
+5374b1c3-0f6e-42cb-a539-d9d4a7986364,2026-03-10,ent_001,Amazon,Amazon - tools,-1272.44,Equipment,,ambiguous
+b4d8fd0e-818e-4c52-9170-451af468d7fb,2026-05-07,ent_002,Costco Wholesale,Costco Wholesale - staff lunch,-114.47,Meals & Entertainment,,ambiguous
+42096284-7ae3-4487-9249-8ac96a63bce0,2025-07-05,ent_003,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-627.3,Subcontractor Payments,,obvious
+b8ea7061-e046-4f66-a260-907826b22c98,2025-10-07,ent_001,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1520.41,Bank Fees,,obvious
+b46a3812-068c-456f-ae7e-6553d4845122,2025-08-11,ent_001,ADP Payroll,ADP Payroll - payroll - salaried staff,-5495.08,Payroll,,obvious
+14468687-6ff6-4ebe-99da-4914057ce009,2025-10-26,ent_003,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-69.73,Repairs & Maintenance,,ambiguous
+6b4e0602-334f-40d4-b8a4-2148d1cede68,2025-11-09,ent_003,ADP Payroll,ADP Payroll - payroll - hourly staff,-10700.29,Payroll,,obvious
+e6b4e3b7-392f-4ae5-8f96-105387648839,2025-12-11,ent_001,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1596.46,Insurance,,obvious
+c8566e20-b95f-4e40-a3fd-686436c417fb,2026-01-12,ent_002,Delta Air Lines,Delta Air Lines - conference travel,-83.68,Travel,,obvious
+5cafc104-28ab-4845-9bfc-da69d8c4d484,2026-01-21,ent_002,Costco Wholesale,Costco Wholesale - paper goods,-38.85,Office Supplies,,ambiguous
+c7efe708-7541-4d22-8af6-32af05371103,2025-09-30,ent_004,ADP Payroll,ADP Payroll - payroll - hourly staff,-3246.53,Payroll,,obvious
+21a0e1f0-13c2-432b-ad4c-ae2e06659000,2026-05-16,ent_001,GitHub,GitHub - annual license renewal,-1660.57,Software & Subscriptions,,obvious
+91225b60-e081-4f27-919d-951f89cc7993,2026-03-20,ent_002,Verizon Fios,Verizon Fios - internet & phone service,-1710.86,Utilities,,obvious
+605d89c5-82ad-4671-aef7-47c69216abdd,2026-02-15,ent_001,84 Lumber,84 Lumber - job site materials,-1344.67,Materials & Supplies,,obvious
+7c60e00e-9367-4b75-b6d4-830693155438,2026-01-04,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - client visit - rideshare,-397.98,Travel,duplicate,anomaly
+a917ceff-83d2-4b61-823c-2de749c9ef7e,2026-04-11,ent_001,US Foods,US Foods - bulk ingredient restock,-2364.4,Cost of Goods Sold,,obvious
+855eb53c-5f5e-4241-aa91-44a009668292,2026-01-03,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - client visit - rideshare,-397.98,Travel,,obvious
+8466f398-eee7-457c-b2f8-9e860f0ccc7b,2025-09-11,ent_002,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-1858.25,Subcontractor Payments,,obvious
+02ff5633-13b2-4674-9295-162d9d70f01b,2026-03-30,ent_002,Amazon,Amazon - fasteners,-179.25,Materials & Supplies,,ambiguous
+77ee26b6-3d7d-4a65-86ed-435d5c5d3ed0,2026-01-20,ent_001,Verizon Fios,Verizon Fios - internet & phone service,-910.22,Utilities,,obvious
+5a128081-6a2c-40a5-88eb-3e5078d8307f,2025-12-17,ent_001,Google Ads,Google Ads - local promo campaign,-1553.93,Marketing,,obvious
+23e3bad2-1857-480d-8d13-8eeb12223c06,2025-10-08,ent_004,US Foods,US Foods - bulk ingredient restock,-1564.13,Cost of Goods Sold,,obvious
+40ca2854-3d10-4ec3-8b7c-532a1d394a46,2026-03-28,ent_001,Restaurant Depot,Restaurant Depot - weekly food order,-1699.31,Cost of Goods Sold,,obvious
+c8d6ac0d-6aed-4a28-ab4f-2606d762c349,2025-08-03,ent_004,84 Lumber,84 Lumber - job site materials,-1255.13,Materials & Supplies,,obvious
+14e498d2-b9f6-4535-a2f7-78229d0c4fd7,2026-01-04,ent_003,84 Lumber,84 Lumber - hardware order,-1003.82,Materials & Supplies,,obvious
+b2562ba0-eff9-415f-afd1-2bc893aca996,2025-08-03,ent_004,Shell Gas Station,Shell Gas Station - fuel - business trip,-86.19,Travel,,ambiguous
+4fb58ada-95e0-4d0b-8d2d-336c5c00802d,2025-10-30,ent_004,Local Farms Co-op,Local Farms Co-op - produce delivery,-1292.85,Cost of Goods Sold,,obvious
+e9eceaa7-9f46-40d6-9afb-af1cc13b49d8,2025-12-08,ent_001,Summit Roofing LLC,Summit Roofing LLC - subcontractor invoice,-251.88,Subcontractor Payments,,obvious
+fb422e7f-bba9-4bd0-95c2-937c35fb0339,2025-12-09,ent_003,Apex Electrical Contracting,Apex Electrical Contracting - milestone payment,-1069.36,Subcontractor Payments,,obvious
+0c25ebc1-2454-4b9a-ac20-f8c90a29c0bb,2026-03-11,ent_001,Home Depot,Home Depot - paint,-638.57,Repairs & Maintenance,,ambiguous
+10d9ef0e-0896-46d1-8538-8223c92e21a1,2026-01-30,ent_004,National Grid,National Grid - water & sewer,-878.48,Utilities,,obvious
+e21bd81f-35b8-4942-ac3d-bcf95936bd41,2026-04-20,ent_004,Square Payment,Square Payment - vendor payment via Square,-220.11,Cost of Goods Sold,,ambiguous
+7f7d3a5f-8e00-4617-98bc-1f81a6532a1b,2025-09-07,ent_003,Amazon,Amazon - printer ink,-171.2,Office Supplies,,ambiguous
+427ff77f-63d1-4c7a-8e14-4226c0a5cea4,2025-10-20,ent_001,National Grid,National Grid - internet & phone service,-2221.13,Utilities,,obvious
+a676e6db-4628-4eaf-b5fc-ea7c3602741a,2025-10-25,ent_004,Apex Electrical Contracting,Apex Electrical Contracting - milestone payment,-2370.44,Subcontractor Payments,,obvious
+b886b48b-0b19-459e-8fcc-0c894873b01b,2026-02-12,ent_003,Microsoft 365,Microsoft 365 - annual license renewal,-691.87,Software & Subscriptions,,obvious
+489fd424-1a1d-4285-83e6-c5beeb885f01,2026-06-14,ent_004,Amazon,Amazon - printer ink,-63.4,Office Supplies,,ambiguous
+4b32ef36-ff27-448a-a85b-e92dd7dc0529,2026-05-26,ent_001,US Foods,US Foods - produce delivery,-1891.0,Cost of Goods Sold,,obvious
+15f14620-b17b-46b4-a780-cd01103769f5,2025-07-09,ent_002,Verizon Fios,Verizon Fios - internet & phone service,-2352.1,Utilities,,obvious
+655d8d64-4540-4aea-9f23-30a9db71a865,2026-01-30,ent_001,Yelp Ads,Yelp Ads - social media ads [1 of 2 - possible split to avoid approval threshold],-440.87,Marketing,split_transaction,anomaly
+f5857bc2-68a7-44ae-ba2f-dab0911688ef,2025-07-03,ent_004,Square Payment,Square Payment - contractor invoice via Square,-1917.97,Subcontractor Payments,,ambiguous
+9a00a195-d8ac-4cc8-8eeb-e76792c62566,2025-12-03,ent_003,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-3502.8,Rent,,obvious
+fb3cf7d0-a88c-4de7-9283-ff591ea6feef,2026-04-11,ent_003,Summit Roofing LLC,Summit Roofing LLC - milestone payment,-1708.52,Subcontractor Payments,,obvious
+66ecb1d6-0f1a-4031-9bfe-9f841d85973e,2026-01-30,ent_004,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-2102.86,Bank Fees,,obvious
+144489df-c2f2-4185-ac02-ba4b16473d7e,2025-12-17,ent_001,Google Ads,Google Ads - local promo campaign,-1553.93,Marketing,duplicate,anomaly
+937c138e-8015-4e34-bc24-150a1fc12886,2026-04-14,ent_001,Amazon,Amazon - paper,-54.48,Office Supplies,,ambiguous
+0a68cbac-950a-4776-b34e-8cbfb43f2ad1,2026-01-26,ent_001,Manual Journal Entry,Manual adjustment - owner draw adjustment,-1500,Cost of Goods Sold,round_number_manual,anomaly
+5773d6a0-24bf-43f9-85fe-1432cb402dd2,2026-04-05,ent_002,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-1307.95,Professional Fees,,obvious
+8effb63c-41a2-4c6a-a231-f382db3ec3f8,2025-08-22,ent_002,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-2298.33,Subcontractor Payments,,obvious
+6b4fe8a2-1375-4cca-83e6-70ec92b153d7,2025-07-04,ent_003,Local Farms Co-op,Local Farms Co-op - bulk ingredient restock,-40.08,Cost of Goods Sold,,obvious
+7a535232-aa16-4d02-9121-bf628d1372ad,2026-04-05,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-93.1,Repairs & Maintenance,,ambiguous
+0173b474-efce-4080-a3ca-206aaad56f3d,2025-11-29,ent_001,Amazon,Amazon - mixer,-804.08,Equipment,,ambiguous
+55e33ecd-1304-443f-bc3b-c7780e2ca74c,2025-08-07,ent_002,Ferguson Building Materials,Ferguson Building Materials - job site materials,-1598.81,Materials & Supplies,,obvious
+27a170f1-780c-42cc-898b-f25a521e798f,2026-04-26,ent_003,Ferguson Building Materials,Ferguson Building Materials - hardware order,-2351.92,Materials & Supplies,,obvious
+7ade26fe-bbbb-4646-bcd3-38db47ea04fb,2026-05-25,ent_004,Microsoft 365,Microsoft 365 - annual license renewal,-2172.87,Software & Subscriptions,,obvious
+378921b3-bca5-46e3-8eeb-71ca1cd7fbba,2025-10-31,ent_002,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1046.26,Insurance,,obvious
+17a22e59-d7a5-431e-9102-4d3f003a290f,2025-07-02,ent_001,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-395.55,Bank Fees,,obvious
+8f33433a-087b-4467-9dc5-26f696703dbc,2025-09-28,ent_003,Amazon,Amazon - hardware,-1326.16,Materials & Supplies,,ambiguous
+5b3e602f-764b-4654-b4eb-47ab54784248,2025-08-07,ent_001,Home Depot Pro,Home Depot Pro - hardware order,-1494.41,Materials & Supplies,,obvious
+6008c03d-0d11-4301-bc22-89b7cb455708,2025-10-29,ent_004,Home Depot Pro,Home Depot Pro - building supply restock,-892.92,Materials & Supplies,,obvious
+2d56f798-e5c5-49d9-b335-0922645b9d8e,2026-01-31,ent_004,Slack,Slack - annual license renewal,-1410.01,Software & Subscriptions,,obvious
+91a853d5-952d-41f4-aa3c-73a4ff05f22f,2026-01-24,ent_001,Home Depot Pro,Home Depot Pro - job site materials,-1585.28,Materials & Supplies,,obvious
+10b4fdef-e25c-40ef-a31a-5b3dd63b2424,2026-03-20,ent_001,84 Lumber,84 Lumber - hardware order,-683.27,Materials & Supplies,,obvious
+e4856c9f-1c20-4c0e-8123-2b22d81080c5,2025-09-06,ent_001,Amazon,Amazon - fasteners,-1499.2,Materials & Supplies,,ambiguous
+c97c3e73-b02a-4d69-92da-5fa2180fe1e4,2025-09-02,ent_003,Westfield Property Management,Westfield Property Management - monthly lease payment,-4499.48,Rent,,obvious
+5a9270ca-31b3-496d-b3a2-a860d7e9967c,2025-11-16,ent_002,National Grid,National Grid - internet & phone service,-1132.56,Utilities,,obvious
+1711992a-3b35-4150-adb2-1045d024caa3,2025-11-22,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-4408.98,Payroll,off_hours_payroll,anomaly
+7b95a5f4-a4dd-4d0a-b579-3f62ca4512c9,2026-05-14,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - monthly account fee,-1013.75,Bank Fees,,obvious
+c28cd314-5e5e-4517-ad64-ea97225a4df8,2025-06-26,ent_004,Amazon,Amazon - POS tablet,-2627.73,Equipment,,ambiguous
+f8da6fac-53c4-458b-b1b6-336f5f1dcd1f,2025-09-27,ent_002,84 Lumber,84 Lumber - job site materials,-428.05,Materials & Supplies,,obvious
+7febcf6a-a3a7-43c7-b25d-d0903ce7e0b1,2026-05-10,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-8114.58,Rent,,obvious
+b8e102ad-7976-4526-b166-b941882f378b,2025-12-14,ent_001,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-328.7,Subcontractor Payments,,obvious
+a4971320-dc32-437b-ae11-82e421c0e94d,2026-06-05,ent_002,Apex Electrical Contracting,Apex Electrical Contracting - milestone payment,-119.84,Subcontractor Payments,,obvious
+921fff2b-fab7-4bcf-b532-0140a56c7b2c,2025-08-11,ent_004,Costco Wholesale,Costco Wholesale - team event catering,-144.94,Meals & Entertainment,,ambiguous
+d195b16f-f030-4fe0-8bf9-dc51977c5dbb,2025-12-15,ent_002,Gusto Payroll Services,Gusto Payroll Services - payroll - hourly staff,-8086.28,Payroll,,obvious
+21da1692-6322-4bea-821f-1bd65d4b0f6f,2026-05-25,ent_002,Ferguson Building Materials,Ferguson Building Materials - job site materials,-452.13,Materials & Supplies,,obvious
+712f4029-8a07-40bd-9141-73aa7ccc7be0,2025-06-23,ent_001,Yelp Ads,Yelp Ads - ad campaign spend,-117.07,Marketing,,obvious
+5e67d2e9-742b-4c45-bd88-413181569803,2026-05-22,ent_003,Costco Wholesale,Costco Wholesale - bulk ingredients,-1027.67,Cost of Goods Sold,,ambiguous
+e3c7d0e4-1f87-4149-b256-5dcb03f7c560,2025-12-20,ent_004,Delta Air Lines,Delta Air Lines - conference travel,-493.94,Travel,,obvious
+8943eef3-ecc0-4545-bf60-17b5103327f3,2026-01-23,ent_003,Costco Wholesale,Costco Wholesale - produce,-1518.15,Cost of Goods Sold,,ambiguous
+3f86c86e-1c52-4eab-a804-590e5ed5c909,2025-11-09,ent_001,State Farm Commercial,State Farm Commercial - quarterly liability premium,-130.08,Insurance,,obvious
+31a35072-cbc3-4904-b832-95a981786d69,2025-12-09,ent_003,Costco Wholesale,Costco Wholesale - staff lunch,-197.24,Meals & Entertainment,,ambiguous
+c6914abd-ce7a-48a9-aae4-fc2ff1b4d8d0,2025-09-19,ent_003,Microsoft 365,Microsoft 365 - cloud hosting charge,-1011.2,Software & Subscriptions,,obvious
+0418cbdc-85f0-4298-a123-86ec49eda153,2025-09-12,ent_003,Costco Wholesale,Costco Wholesale - cleaning supplies,-97.88,Office Supplies,,ambiguous
+5fc55948-5c24-4868-9312-c6be3fe28c53,2025-12-10,ent_002,Amazon,Amazon - mixer,-2191.11,Equipment,,ambiguous
+06aaea7d-b519-489a-a72f-121966791de4,2025-12-25,ent_001,Costco Wholesale,Costco Wholesale - team event catering,-52.84,Meals & Entertainment,,ambiguous
+5c034f50-ab95-469a-910c-96007aeaa98d,2025-11-18,ent_004,Square Payment,Square Payment - contractor invoice via Square,-2669.32,Subcontractor Payments,,ambiguous
+1cf5f00e-11d7-4765-bc0a-1741a8cd347a,2025-09-19,ent_004,Meta Ads,Meta Ads - social media ads,-1760.05,Marketing,,obvious
+f2692a27-b08d-420d-91e4-f907cd0d0502,2025-11-09,ent_004,National Grid,National Grid - internet & phone service [unusually large vs vendor history],-14207.45,Utilities,outlier_amount,anomaly
+339e96f6-5987-4340-887c-dfd78c0f52cd,2025-08-04,ent_004,Paychex Inc,Paychex Inc - biweekly payroll run,-14817.42,Payroll,,obvious
+74e0f8fa-8c15-45dd-a207-8de70859df41,2025-11-01,ent_004,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - overdraft fee,-1492.29,Bank Fees,,obvious
+983d1f47-04ee-4874-ad5d-6f36d58c4534,2025-12-26,ent_003,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-1975.53,Professional Fees,,obvious
+a5878940-df7f-40ff-8fa7-42d17a958206,2025-11-23,ent_002,Costco Wholesale,Costco Wholesale - cleaning supplies,-145.66,Office Supplies,,ambiguous
+a7003e29-de30-40e7-b22b-6e169f547bf1,2026-05-21,ent_001,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-178.12,Insurance,,obvious
+bd224394-5c02-4b63-b671-4558194c850b,2025-12-23,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-1730.62,Bank Fees,,obvious
+01575165-2c77-41cf-a1d7-abce34734a52,2025-10-23,ent_003,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-1110.61,Subcontractor Payments,,obvious
+8b9c9694-a7c8-43b9-a932-1c6252352d33,2026-01-11,ent_001,84 Lumber,84 Lumber - hardware order,-171.17,Materials & Supplies,,obvious
+ba46177b-a5c2-4fa6-b2e6-fdc4f4b06f3d,2025-07-09,ent_004,Delta Air Lines,Delta Air Lines - client visit - rideshare,-2255.0,Travel,,obvious
+42f1fa4a-7f8c-4142-bc4b-d4d56dc77f6c,2026-02-05,ent_003,Sysco Foods,Sysco Foods - bulk ingredient restock,-462.85,Cost of Goods Sold,,obvious
+e5fdb0f2-9825-4a4b-967a-f442674c76cf,2026-06-20,ent_002,84 Lumber,84 Lumber - building supply restock,-1027.07,Materials & Supplies,,obvious
+ce410285-d615-4873-8832-6492bf250089,2025-07-30,ent_002,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-480.67,Materials & Supplies,,obvious
+eaf9d1c5-1ddd-49e1-9276-9deb8beb440e,2026-05-31,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1520.32,Travel,,obvious
+8ae56919-4251-4df0-9f02-080be074bda5,2026-01-24,ent_004,US Foods,US Foods - bulk ingredient restock,-1382.06,Cost of Goods Sold,,obvious
+3cdad392-8b89-42b6-af47-dd017db19611,2025-10-06,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-46.32,Repairs & Maintenance,,ambiguous
+84281b0a-1ade-48fd-9484-8baec48db588,2025-09-18,ent_001,Costco Wholesale,Costco Wholesale - paper goods,-33.92,Office Supplies,,ambiguous
+1674c78a-498e-473c-9038-70a9f23331a5,2026-01-11,ent_001,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-526.56,Insurance,,obvious
+5ae44b3d-a78a-4154-9681-b0847ef2b2a7,2026-04-30,ent_002,National Grid,National Grid - monthly electric bill,-211.37,Utilities,,obvious
+6b9ff512-b352-4aab-88bd-7b358191ee5e,2025-07-08,ent_001,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-921.01,Subcontractor Payments,,obvious
+3801929c-b7b1-430d-9976-bec18c8692ac,2026-01-18,ent_003,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-1364.58,Professional Fees,,obvious
+624795c5-6d0d-4e46-ae72-85c13d1800d9,2026-06-19,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-8861.71,Rent,,obvious
+614a2aa4-1928-465b-8744-f7e5d995b176,2025-08-21,ent_003,State Farm Commercial,State Farm Commercial - quarterly liability premium,-1701.98,Insurance,,obvious
+96b175c9-d04e-43dc-bb2d-2c7d0ed915c6,2025-12-19,ent_003,Westfield Property Management,Westfield Property Management - rent - warehouse space,-3356.72,Rent,,obvious
+374ed395-198e-4231-888a-fe9551f1ed21,2025-06-25,ent_002,ConEd,ConEd - internet & phone service,-1127.93,Utilities,,obvious
+1bb6030e-bb13-4083-9068-49d03a040776,2025-06-24,ent_002,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-1823.96,Insurance,,obvious
+9266e768-54b4-4854-ae88-6d1de58c3caa,2025-09-03,ent_001,Gusto Payroll Services,Gusto Payroll Services - payroll - hourly staff,-6613.07,Payroll,,obvious
+e8ca2d80-3033-401e-a2e9-bab5f8cbd610,2025-09-30,ent_004,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-230.29,Professional Fees,,obvious
+65433c57-317e-42c4-aa2f-3a3e824bb96d,2026-03-13,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip [unusually large vs vendor history],-348.16,Travel,outlier_amount,anomaly
+23b9abd9-78bb-4625-b3b6-f92e789bf7a8,2026-04-01,ent_001,Apex Electrical Contracting,Apex Electrical Contracting - subcontractor invoice,-2412.01,Subcontractor Payments,,obvious
+9f26d60c-cf70-4e3a-bdd6-d8678892c0fd,2025-10-15,ent_003,Uber Trip,Uber Trip - business trip - flight,-867.5,Travel,,obvious
+0b75ec03-d23b-44b8-bd6b-a197e3b2428e,2026-06-06,ent_001,Chase Business Banking Fee,Chase Business Banking Fee - overdraft fee,-762.68,Bank Fees,,obvious
+86cc8df8-92b2-4b85-a1c6-782aa3efd907,2025-08-14,ent_003,Uber Trip,Uber Trip - client visit - rideshare,-1968.68,Travel,,obvious
+c523b742-400b-4c8f-be42-27a75f4a07ae,2026-05-23,ent_004,Costco Wholesale,Costco Wholesale - cleaning supplies,-118.91,Office Supplies,duplicate,anomaly
+52c80073-2523-40e7-8790-48417072329c,2025-08-10,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-1084.51,Professional Fees,,obvious
+edca8115-0ee5-41b8-a328-afe4e2a5d450,2026-01-03,ent_003,84 Lumber,84 Lumber - building supply restock,-1631.59,Materials & Supplies,,obvious
+9cb8bea1-41cc-47f6-8ed7-055c827605a9,2025-10-06,ent_003,Costco Wholesale,Costco Wholesale - staff lunch,-212.52,Meals & Entertainment,,ambiguous
+5b483e01-f5e6-4487-96c1-80fc30987a19,2025-11-20,ent_001,Verizon Fios,Verizon Fios - water & sewer,-2327.57,Utilities,,obvious
+c113bf5b-e59e-4c78-8bb7-8492247c196d,2025-07-18,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-1458.21,Professional Fees,,obvious
+0fce39aa-2580-4117-a786-151a1935aaeb,2025-08-14,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-5929.88,Rent,,obvious
+90766b21-cf3c-41b5-b413-7697048c449e,2026-05-01,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-2141.52,Bank Fees,,obvious
+7d72e35a-a341-4fb2-ab7a-d8a2104e3c35,2026-05-26,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-369.38,Travel,,obvious
+ce0d2c02-6018-414f-a061-04dd92d4fc10,2025-10-01,ent_004,Paychex Inc,Paychex Inc - payroll - hourly staff [1 of 2 - possible split to avoid approval threshold],-2377.57,Payroll,split_transaction,anomaly
+3faef4db-9b6e-47cd-a620-b3e59ba4dc86,2025-07-01,ent_002,Square Payment,Square Payment - contractor invoice via Square,-1416.7,Subcontractor Payments,,ambiguous
+0fb3a20f-8c11-4c1e-9639-53a5652d668e,2025-08-15,ent_003,ADP Payroll,ADP Payroll - payroll - hourly staff,-15712.42,Payroll,,obvious
+c3151727-8b3f-47ea-9a92-cbeef97c59ff,2026-01-15,ent_001,Apex Electrical Contracting,Apex Electrical Contracting - trade contractor payment,-312.3,Subcontractor Payments,,obvious
+e7279f41-e26d-4a7a-b861-2016a53e7caa,2025-11-23,ent_003,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-1038.77,Insurance,,obvious
+4a1beaf3-083c-4a5b-9817-0db740d08253,2025-12-08,ent_004,State Farm Commercial,State Farm Commercial - workers comp premium,-1472.97,Insurance,,obvious
+2de00937-57b9-49ff-8e21-01702ba23bd8,2026-06-01,ent_002,Verizon Fios,Verizon Fios - internet & phone service,-119.83,Utilities,,obvious
+14c9e9aa-f719-4b50-8d56-f66a00d82c9d,2026-04-12,ent_001,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1033.99,Bank Fees,,obvious
+abd9160a-f94b-4785-b5e8-43e92bf2fa44,2026-06-12,ent_004,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1131.47,Subcontractor Payments,,obvious
+edd0d0dd-d107-455e-9f21-0d13de3a3059,2026-03-18,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-47.29,Repairs & Maintenance,,ambiguous
+8c6ada60-9971-4fee-88e0-a319eae0c158,2025-08-20,ent_003,Uber Trip,Uber Trip - conference travel,-1570.08,Travel,,obvious
+0b018401-561d-48dd-932a-d1dd007235ed,2025-10-05,ent_003,Square Payment,Square Payment - vendor payment via Square,-576.34,Cost of Goods Sold,,ambiguous
+95417288-a356-42ca-a7e5-e703633e2ead,2026-05-24,ent_002,ADP Payroll,Payroll run - processed Saturday (off-cycle),-7717.28,Payroll,off_hours_payroll,anomaly
+8f05c48f-316e-4be8-861e-a4854b8c67bd,2025-08-19,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-5025.01,Rent,,obvious
+a1887a31-ba76-4e90-ad95-d15fd71b6f55,2026-05-22,ent_001,Costco Wholesale,Costco Wholesale - bulk ingredients,-1600.29,Cost of Goods Sold,,ambiguous
+333f2550-be95-4cd0-b5f5-0ea47ed094b2,2026-03-28,ent_004,ADP Payroll,Payroll run - processed Saturday (off-cycle),-5614.6,Payroll,off_hours_payroll,anomaly
+17326420-2982-47bf-b3cc-7313e518d98d,2026-05-05,ent_001,Amazon,Amazon - mixer,-1354.55,Equipment,,ambiguous
+6f3d61e4-2d8b-4b35-84ba-38f13628b2e3,2026-03-15,ent_004,Westfield Property Management,Westfield Property Management - monthly lease payment,-7053.39,Rent,,obvious
+f0ea0ce3-0770-4326-a9bf-19be8bef464e,2025-11-12,ent_003,Manual Journal Entry,Manual adjustment - reclass entry,-1500,Cost of Goods Sold,round_number_manual,anomaly
+ac96996f-b013-4706-8518-6d0eabe7faf0,2026-05-14,ent_001,US Foods,US Foods - beverage order,-1535.96,Cost of Goods Sold,,obvious
+87a28fe9-4b1d-4332-9ff9-0fa5fc33d706,2025-12-27,ent_004,ADP Payroll,Payroll run - processed Saturday (off-cycle),-6484.06,Payroll,off_hours_payroll,anomaly
+2f1dca59-6b4c-4c5c-8294-89cbdaa4c0c0,2025-07-17,ent_001,Home Depot,Home Depot - paint,-370.7,Repairs & Maintenance,,ambiguous
+e1c8a1ed-00d5-4c7f-b8e8-633b7b0f7660,2025-10-08,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-80.86,Repairs & Maintenance,,ambiguous
+816b1246-47bf-4023-8311-f9864e9c63cb,2026-03-04,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-4964.18,Rent,,obvious
+53bed2b6-550e-4a54-aa06-82f427cd57b6,2025-11-06,ent_001,Amazon,Amazon - site supplies,-451.88,Materials & Supplies,,ambiguous
+8d309a62-6130-4152-b6f4-383b9dee90cb,2026-01-25,ent_001,84 Lumber,84 Lumber - building supply restock,-2085.44,Materials & Supplies,,obvious
+6ddf6455-a04f-4e21-8913-4e0d04407d8f,2025-11-26,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-46.04,Repairs & Maintenance,,ambiguous
+38d2a8c7-ef98-438b-bbea-7bcef94f448b,2025-09-16,ent_002,Square Payment,Square Payment - vendor payment via Square,-510.18,Cost of Goods Sold,,ambiguous
+1aa0147a-ab18-44c5-816e-fd20050bbd00,2026-03-04,ent_002,Amazon,Amazon - POS tablet,-684.06,Equipment,,ambiguous
+2e91174a-9b57-4d1b-aad6-3e4f4b398187,2025-07-31,ent_002,84 Lumber,84 Lumber - building supply restock,-192.57,Materials & Supplies,,obvious
+d1da9e14-5525-4727-83c3-d35b8fbad8e0,2026-04-07,ent_003,State Farm Commercial,State Farm Commercial - workers comp premium,-2162.93,Insurance,,obvious
+2e322ab1-bd6e-482a-88b7-9dec9488d4aa,2026-06-06,ent_002,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1100.87,Bank Fees,,obvious
+1e6ece5b-8303-4c79-8758-5043730c3939,2026-03-06,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-72.52,Repairs & Maintenance,,ambiguous
+d2a74f2c-662b-4c65-8ac2-895fe8a2969b,2025-10-21,ent_004,Square Payment,Square Payment - vendor payment via Square,-525.55,Cost of Goods Sold,,ambiguous
+6793c3cc-e84f-4c93-89d6-765367403ff8,2025-08-02,ent_003,ADP Payroll,Payroll run - processed Saturday (off-cycle),-3143.39,Payroll,off_hours_payroll,anomaly
+6606292b-ec1b-4bf5-b1f9-3872da666a47,2026-04-16,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1983.32,Travel,,obvious
+d8932eae-270a-4f7d-b36e-c547d092755e,2025-09-01,ent_001,Home Depot,Home Depot - repair parts,-339.92,Repairs & Maintenance,,ambiguous
+46bdcb22-3315-4f7a-8a43-5e1391dc46f3,2025-06-29,ent_003,Westfield Property Management,Westfield Property Management - monthly lease payment,-7893.45,Rent,,obvious
+f4f8bf42-86c2-42fb-aab8-718b938cc958,2025-07-22,ent_003,Home Depot Pro,Home Depot Pro - job site materials,-1186.84,Materials & Supplies,,obvious
+90dc2175-35b1-4f70-ab92-ade104b72937,2025-10-21,ent_004,Verizon Fios,Verizon Fios - monthly electric bill,-809.08,Utilities,,obvious
+3d94af2c-1398-4090-8f79-0b911340b90a,2026-05-14,ent_001,Square Payment,Square Payment - contractor invoice via Square,-2605.59,Subcontractor Payments,,ambiguous
+7d336d7a-0cc9-4034-b161-5203da753f10,2026-01-10,ent_004,Meta Ads,Meta Ads - social media ads [1 of 2 - possible split to avoid approval threshold],-470.29,Marketing,split_transaction,anomaly
+f37ed539-fed1-4053-aa8d-18295df4468f,2025-09-17,ent_004,Meta Ads,Meta Ads - ad campaign spend,-1637.32,Marketing,,obvious
+eda9426c-56be-48ca-a8a1-8fefcefb2ca5,2026-02-17,ent_003,Costco Wholesale,Costco Wholesale - paper goods [unusually large vs vendor history],-1330.96,Office Supplies,outlier_amount,anomaly
+0cb62636-7ab8-4c8b-a626-cf38bac8badd,2025-11-22,ent_001,Costco Wholesale,Costco Wholesale - paper goods,-140.45,Office Supplies,,ambiguous
+f6dcef8f-6577-4e4e-aeea-cc83ef3c683d,2026-04-22,ent_004,Costco Wholesale,Costco Wholesale - produce,-591.17,Cost of Goods Sold,,ambiguous
+dda9b608-d2fd-45d3-9f30-61740a802c45,2025-11-04,ent_001,Square Payment,Square Payment - vendor payment via Square [unusually large vs vendor history],-3244.39,Cost of Goods Sold,outlier_amount,anomaly
+53c8e999-9cab-42c3-b915-82ed302af74d,2026-04-27,ent_004,Restaurant Depot,Restaurant Depot - produce delivery,-1279.05,Cost of Goods Sold,,obvious
+2674da55-ac1f-4fb6-829e-e6e593b93239,2025-12-29,ent_002,Shell Gas Station,Shell Gas Station - fuel - business trip,-98.56,Travel,,ambiguous
+d9aaf26f-bdc3-45e9-ad95-3eafd7c36751,2026-03-30,ent_004,Amazon,Amazon - site supplies [unusually large vs vendor history],-2783.79,Materials & Supplies,outlier_amount,anomaly
+30cafa5e-9bee-4ec2-845f-5d7beb82500d,2026-04-23,ent_004,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1892.26,Insurance,,obvious
+926e0821-8223-4fe9-9500-7155a85b1409,2026-05-18,ent_004,Meta Ads,Meta Ads - local promo campaign,-2212.93,Marketing,,obvious
+bdb19bb3-e737-4177-862e-9212e4990dbc,2025-12-09,ent_003,Local Farms Co-op,Local Farms Co-op - weekly food order,-2433.33,Cost of Goods Sold,,obvious
+f8df82f9-e637-42d8-b95a-60ded3220b00,2025-09-29,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-5527.92,Rent,,obvious
+9ee688a6-7a00-4477-b61b-8282e9470f91,2026-05-31,ent_004,Enterprise Rent-A-Car,Enterprise Rent-A-Car - client visit - rideshare,-219.5,Travel,,obvious
+724670de-5686-4f98-bd29-cf07e1979b01,2026-06-14,ent_001,Costco Wholesale,Costco Wholesale - staff lunch,-177.21,Meals & Entertainment,,ambiguous
+c3e17b91-8084-4e9b-bc17-1d5633cc26dd,2026-02-06,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-6148.89,Rent,,obvious
+63c06c8c-9301-4eb3-b87c-ddb5ce8b6987,2026-01-20,ent_003,AWS,AWS - monthly subscription,-833.24,Software & Subscriptions,,obvious
+a935e736-2eb6-481c-a16c-03593db695c9,2026-04-26,ent_001,Local Farms Co-op,Local Farms Co-op - bulk ingredient restock,-2005.47,Cost of Goods Sold,,obvious
+0783af57-7c47-49b1-9f9a-f5dd47ed6083,2026-05-03,ent_003,Home Depot,Home Depot - power tools,-987.96,Equipment,,ambiguous
+c3c52cf8-f2e4-40bd-a9bc-6e96c6468633,2025-12-19,ent_003,Enterprise Rent-A-Car,Enterprise Rent-A-Car - client visit - rideshare,-1343.45,Travel,,obvious
+f0ff7bcd-b735-483f-b7b6-d6a87697e2ed,2026-01-02,ent_001,84 Lumber,84 Lumber - hardware order,-1623.92,Materials & Supplies,,obvious
+22c57284-7cfa-491d-aebc-1a3b95c024bf,2025-06-29,ent_004,Slack,Slack - monthly subscription,-1106.65,Software & Subscriptions,,obvious
+51feafca-1309-45a6-8ea1-5c0d4e0b111c,2025-08-31,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-768.83,Bank Fees,,obvious
+72af8183-8e50-4c38-b831-07f8bbc5a749,2026-03-28,ent_002,Westfield Property Management,Westfield Property Management - rent - warehouse space,-7758.78,Rent,,obvious
+19b1b860-4090-4f24-93b2-cd19202679cf,2025-12-24,ent_004,Paychex Inc,Paychex Inc - payroll - salaried staff,-4994.85,Payroll,,obvious
+2a348b52-7b7a-41f7-86f2-0406f3140429,2025-09-06,ent_003,Gusto Payroll Services,Gusto Payroll Services - payroll - salaried staff,-9436.69,Payroll,,obvious
+28801d3d-43e7-4924-ac93-300c05abe8b3,2025-12-21,ent_004,Amazon,Amazon - POS tablet,-2113.0,Equipment,,ambiguous
+299f7258-3e8d-493d-b492-743ddae78298,2025-10-27,ent_003,Paychex Inc,Paychex Inc - biweekly payroll run,-10606.02,Payroll,,obvious
+44884583-40ea-468f-855b-bf5b7e3341c3,2025-10-09,ent_004,Amazon,Amazon - mixer,-1451.79,Equipment,,ambiguous
+18810b46-31b4-48dd-a5e9-d6269c826b7f,2026-06-14,ent_001,84 Lumber,84 Lumber - building supply restock,-2162.02,Materials & Supplies,,obvious
+c2615f5c-bf54-4650-8094-e00e48b64f60,2025-07-05,ent_004,Home Depot Pro,Home Depot Pro - hardware order,-580.13,Materials & Supplies,,obvious
+4980daa3-4302-439d-85f7-7533193ecf98,2025-09-14,ent_004,ADP Payroll,Payroll run - processed Saturday (off-cycle),-2954.67,Payroll,off_hours_payroll,anomaly
+58dd0b71-a8aa-4a59-bcd3-369d547957e1,2025-11-30,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-53.44,Travel,duplicate,anomaly
+95b5527e-7f13-42e6-8127-4ebf3eb3f505,2025-08-11,ent_004,Square Payment,Square Payment - vendor payment via Square,-150.14,Cost of Goods Sold,,ambiguous
+83901c83-95d2-4945-97f4-7358e809a8ba,2025-10-25,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-4574.25,Rent,,obvious
+b74634a2-729c-44f6-8ff1-54f15cd11107,2025-11-29,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-2736.21,Rent,,obvious
+6fd8a9f4-b831-4f19-a4a4-9f39f01c8e1f,2025-12-16,ent_003,Verizon Fios,Verizon Fios - internet & phone service [unusually large vs vendor history],-20977.43,Utilities,outlier_amount,anomaly
+450f9a8c-6bac-42db-b9ee-ecd5ee911a64,2026-03-28,ent_002,Costco Wholesale,Costco Wholesale - staff lunch,-77.24,Meals & Entertainment,,ambiguous
+4af0058d-9d4e-49c9-ab24-4efe33d672a8,2025-12-04,ent_002,Manual Journal Entry,Manual adjustment - misc accrual reversal,-2000,Cost of Goods Sold,round_number_manual,anomaly
+1ee0e823-73b5-4562-b1f4-8db214af5545,2025-07-16,ent_002,Meta Ads,Meta Ads - local promo campaign,-826.12,Marketing,,obvious
+3081dfd8-4b89-465c-a3a9-f0b953550c0c,2025-09-23,ent_004,Amazon,Amazon - paper,-107.42,Office Supplies,,ambiguous
+81e10892-8004-48fb-bbeb-9ae8cc166050,2025-07-05,ent_002,State Farm Commercial,State Farm Commercial - quarterly liability premium,-1385.59,Insurance,,obvious
+a8862df6-008b-4ecf-a6a6-483d06104eb4,2026-02-02,ent_004,Home Depot,Home Depot - generator,-1405.27,Equipment,,ambiguous
+5e759157-a0d2-47ec-9caf-f124f7de0e9a,2026-05-13,ent_004,Marriott Hotels,Marriott Hotels - business trip - flight,-1181.46,Travel,,obvious
+5230313a-f579-4d28-b453-b271011cc3de,2026-02-17,ent_002,Westfield Property Management,Westfield Property Management - rent - warehouse space,-6528.12,Rent,,obvious
+fafed712-a130-4f1f-8262-7ef1785d3f32,2026-04-20,ent_002,Paychex Inc,Paychex Inc - payroll - hourly staff,-12006.17,Payroll,,obvious
+a2314a25-0641-46c0-b154-a849eff51696,2026-01-14,ent_003,AWS,AWS - monthly subscription,-32.88,Software & Subscriptions,,obvious
+e5813254-a3fd-4294-b36e-be421df8fef2,2026-03-03,ent_004,Ferguson Building Materials,Ferguson Building Materials - building supply restock,-31.04,Materials & Supplies,,obvious
+494422b9-b845-4e6f-aa20-e97856bab74e,2025-06-26,ent_002,Costco Wholesale,Costco Wholesale - cleaning supplies,-102.3,Office Supplies,,ambiguous
+291b4846-ae32-46bc-b45a-67bb3776707c,2025-12-17,ent_003,Local Farms Co-op,Local Farms Co-op - beverage order,-281.74,Cost of Goods Sold,,obvious
+caae694a-cfef-4929-b64b-b0565d1eb2a2,2025-07-02,ent_002,Square Payment,Square Payment - contractor invoice via Square,-482.28,Subcontractor Payments,,ambiguous
+966a0d0d-031b-47a5-81b9-5a9c6001fba2,2025-08-14,ent_004,Amazon,Amazon - POS tablet,-2838.84,Equipment,,ambiguous
+f862ccd0-ffc1-4cc6-9671-dd403862c76d,2025-12-12,ent_002,Amazon,Amazon - fasteners,-765.31,Materials & Supplies,,ambiguous
+8f354119-6014-436d-a249-9215be8cb1e5,2026-02-09,ent_003,Yelp Ads,Yelp Ads - social media ads,-2079.57,Marketing,,obvious
+d90ea82a-5158-4c89-aa21-9b2759c2d607,2026-06-20,ent_001,Home Depot,Home Depot - site materials,-3190.68,Materials & Supplies,,ambiguous
+91cb9776-02db-425c-8273-954724a4eaf7,2025-08-08,ent_004,Manual Journal Entry,Manual adjustment - year-end correction,-500,Subcontractor Payments,round_number_manual,anomaly
+f0f7fdd0-6557-48a3-8a8b-50c95a053a85,2026-02-13,ent_002,Amazon,Amazon - site supplies,-105.77,Materials & Supplies,,ambiguous
+80feb2a1-4673-47ce-bad7-c2382c93f499,2025-07-10,ent_003,Amazon,Amazon - tools,-1774.38,Equipment,,ambiguous
+85d51620-6867-48c1-a22c-a008d932a7b7,2026-06-09,ent_002,Costco Wholesale,Costco Wholesale - staff lunch,-296.22,Meals & Entertainment,,ambiguous
+b9242bdd-55e0-4035-b69c-b8bcc5d454fc,2025-12-07,ent_003,ADP Payroll,Payroll run - processed Saturday (off-cycle),-5025.53,Payroll,off_hours_payroll,anomaly
+c761d942-7d25-49d7-8113-2e077a564c94,2026-01-10,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-58.94,Travel,,ambiguous
+bed4b118-3e1f-4a58-9477-872ff0bd90d9,2026-05-06,ent_002,Ferguson Building Materials,Ferguson Building Materials - hardware order,-2301.03,Materials & Supplies,,obvious
+4ecf95a9-45cc-4592-a8fd-e71298671c41,2026-04-23,ent_003,QuickBooks Online,QuickBooks Online - cloud hosting charge,-1525.97,Software & Subscriptions,,obvious
+8b1b23f4-a684-4fa6-b040-408c936f86fe,2025-12-23,ent_003,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-3781.28,Payroll,,obvious
+98ebd5d4-09d0-4957-8842-7d9eb351e435,2026-03-21,ent_002,Amazon,Amazon - POS tablet,-1219.13,Equipment,,ambiguous
+32d32d18-b56a-4553-bc1d-bf228e55c911,2026-03-20,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-890.54,Professional Fees,,obvious
+db962022-5acd-42d5-aa5c-6de917827a6b,2026-04-06,ent_003,ADP Payroll,ADP Payroll - payroll - salaried staff,-15098.44,Payroll,,obvious
+5381d333-b6dd-4ebd-ad61-aa973645ac0e,2026-01-06,ent_001,Meta Ads,Meta Ads - social media ads,-428.35,Marketing,,obvious
+bc2afe29-ff44-464e-a591-671b0a589406,2026-03-22,ent_001,Amazon,Amazon - folders,-83.91,Office Supplies,,ambiguous
+cce76079-a8ad-44cb-91a6-71d3739d1974,2026-03-01,ent_003,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-490.95,Insurance,,obvious
+398044e4-f9e0-4f4e-aa8e-2142b2504ae5,2026-02-22,ent_001,Costco Wholesale,Costco Wholesale - staff lunch,-119.96,Meals & Entertainment,,ambiguous
+c40890c0-5416-4c25-8428-cf5928b9910d,2026-04-29,ent_001,Restaurant Depot,Restaurant Depot - produce delivery,-573.56,Cost of Goods Sold,duplicate,anomaly
+486b918e-2ff3-4859-9d6b-de33d67e0be6,2026-05-31,ent_004,Westfield Property Management,Westfield Property Management - rent - storefront,-8565.07,Rent,,obvious
+6bda08f1-27b3-4fc9-8d6e-1e979697e1e1,2025-10-02,ent_004,Paychex Inc,Paychex Inc - biweekly payroll run,-10332.42,Payroll,,obvious
+4b72c958-be80-4bf0-9065-6d6cc60a02b7,2026-05-03,ent_002,Gusto Payroll Services,Gusto Payroll Services - payroll - hourly staff,-7969.06,Payroll,,obvious
+11588c1d-4944-461d-82cc-a6a5eba574e8,2026-04-29,ent_002,Square Payment,Square Payment - vendor payment via Square,-247.28,Cost of Goods Sold,,ambiguous
+ed580161-dcaf-42ea-924f-efb6e68c31f7,2026-03-22,ent_002,Square Payment,Square Payment - contractor invoice via Square [1 of 2 - possible split to avoid approval threshold],-2092.31,Subcontractor Payments,split_transaction,anomaly
+484eeef4-628d-46ef-9e4a-b7b336ec10b6,2025-11-22,ent_002,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-8509.17,Rent,,obvious
+49f91cb4-f2a3-44f1-ac72-10158e2dc30e,2025-12-27,ent_002,ADP Payroll,Payroll run - processed Saturday (off-cycle),-2998.98,Payroll,off_hours_payroll,anomaly
+aea827b4-a4b8-41b4-843e-39e1714505d8,2025-10-10,ent_004,State Farm Commercial,State Farm Commercial - workers comp premium,-1746.96,Insurance,,obvious
+8d332c9a-fdf2-44e3-9605-adda581890bd,2026-05-25,ent_001,Home Depot,Home Depot - power tools,-2288.36,Equipment,,ambiguous
+bd656aed-965a-418d-9486-85936ac94a6c,2025-07-05,ent_004,ADP Payroll,Payroll run - processed Saturday (off-cycle),-7653.02,Payroll,off_hours_payroll,anomaly
+5551aa94-3a36-4027-a7be-a8ffbc268bbe,2026-06-04,ent_002,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-588.04,Subcontractor Payments,,obvious
+7eeeb7b6-b4ca-4912-9885-7cf2dce2ade9,2025-10-04,ent_003,Apex Electrical Contracting,Apex Electrical Contracting - milestone payment,-2252.12,Subcontractor Payments,,obvious
+46a9fcfa-9067-4895-bf18-1a814fa87564,2025-11-29,ent_002,Home Depot,Home Depot - site materials,-3329.32,Materials & Supplies,,ambiguous
+9226ea57-760f-4d0a-bbb4-e8b51b1f7527,2025-08-14,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1071.56,Travel,,obvious
+970c323c-2fbb-42e3-8568-073225a0623b,2025-12-12,ent_003,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-110.28,Repairs & Maintenance,,ambiguous
+9f61529b-f275-4239-89a3-62d905096b7e,2025-09-15,ent_001,PSE&G,PSE&G - water & sewer,-411.21,Utilities,,obvious
+79300720-74c6-4658-9e6b-f622c33e4e63,2026-02-21,ent_004,Ferguson Building Materials,Ferguson Building Materials - hardware order,-1963.82,Materials & Supplies,,obvious
+8195c8ab-8350-4469-88cb-44a361908036,2025-11-10,ent_002,Costco Wholesale,Costco Wholesale - beverages,-877.4,Cost of Goods Sold,,ambiguous
+9746bfc2-9d0b-4ef3-b87b-705489d8b136,2026-02-21,ent_002,Costco Wholesale,Costco Wholesale - bulk ingredients,-1691.84,Cost of Goods Sold,,ambiguous
+992a594e-6745-4843-94a6-2bac8b64ec45,2026-04-10,ent_003,Amazon,Amazon - folders,-180.92,Office Supplies,,ambiguous
+d1b5b4cf-8dc5-449a-8a30-362f5cbe47cc,2025-09-18,ent_004,State Farm Commercial,State Farm Commercial - quarterly liability premium,-953.62,Insurance,,obvious
+a46154a5-8168-4e86-bd2b-b84495ac2586,2025-11-21,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-98.61,Repairs & Maintenance,,ambiguous
+6b3c2674-155f-470e-9705-5bb08705e8de,2026-02-08,ent_002,Home Depot,Home Depot - hardware fix,-403.09,Repairs & Maintenance,,ambiguous
+3b054127-37bb-4f58-9f07-724845c4fc44,2026-04-17,ent_002,ConEd,ConEd - internet & phone service,-397.91,Utilities,,obvious
+e3373da8-c821-43d4-b91a-f9cbd774a1ad,2025-11-29,ent_004,ADP Payroll,Payroll run - processed Saturday (off-cycle),-7248.18,Payroll,off_hours_payroll,anomaly
+054b9c8b-51e8-48f1-a530-d9b0d47b2b73,2026-03-04,ent_003,Amazon,Amazon - fasteners,-656.8,Materials & Supplies,,ambiguous
+8b2e48bf-7ec4-4188-8070-4d6d6bbbfe3b,2026-03-17,ent_003,Shell Gas Station,Shell Gas Station - fuel - business trip,-118.68,Travel,,ambiguous
+47405cc9-9c5a-4672-8acb-407efbf70322,2025-11-27,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - monthly account fee,-2496.5,Bank Fees,,obvious
+46a4d49f-b9a4-46c3-b348-7d109daf73b5,2026-06-16,ent_001,Home Depot,Home Depot - concrete [unusually large vs vendor history],-4993.99,Materials & Supplies,outlier_amount,anomaly
+f556ad30-a0a9-49a0-8cab-ea1207d3ddcf,2025-09-17,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer,-517.97,Professional Fees,,obvious
+66e1cc00-6757-4c80-b2b3-8f3e9da53e0d,2025-08-20,ent_002,Westfield Property Management,Westfield Property Management - monthly lease payment,-5428.27,Rent,,obvious
+65603698-43a8-4d09-b064-a9c3908c08bd,2025-11-26,ent_001,Westfield Property Management,Westfield Property Management - rent - warehouse space,-8101.82,Rent,,obvious
+a9df5675-2424-46f5-8ec4-c65c96dfe7f5,2025-11-09,ent_001,Paychex Inc,Paychex Inc - payroll - hourly staff,-14796.42,Payroll,,obvious
+9a109982-7ee2-4c78-923e-9a7a82b08e0d,2026-01-04,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-101.88,Repairs & Maintenance,,ambiguous
+0272c6ce-def5-47f7-98f9-362452f19a2d,2025-11-17,ent_004,Toast POS,Toast POS - annual license renewal,-710.08,Software & Subscriptions,,obvious
+0350746f-ccc8-4fad-9b06-36283f0533a8,2025-12-28,ent_002,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1998.62,Bank Fees,,obvious
+978e1125-b29b-440c-842d-57810ebd518e,2026-02-05,ent_004,Delta Air Lines,Delta Air Lines - business trip - flight,-1088.7,Travel,,obvious
+dffbdd89-a9ec-4cba-ae5d-2d472784d19c,2026-03-21,ent_001,Yelp Ads,Yelp Ads - local promo campaign,-1087.82,Marketing,,obvious
+a836ca15-8aba-4bee-8e54-810d51966fde,2025-09-28,ent_001,Manual Journal Entry,Manual adjustment - year-end correction,-500,Equipment,round_number_manual,anomaly
+f292b63b-9020-4152-a434-d8c52152b403,2025-09-28,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-2312.29,Professional Fees,,obvious
+594f9b9e-5998-4864-827b-b67b2231a68d,2025-10-28,ent_003,Home Depot,Home Depot - concrete,-3602.84,Materials & Supplies,,ambiguous
+4499687b-c10a-4943-b865-1ebffe5d1ef7,2026-06-18,ent_003,Costco Wholesale,Costco Wholesale - produce,-1134.38,Cost of Goods Sold,,ambiguous
+47864f9f-74bb-4a16-aacd-1ebc0f3f0ea9,2026-01-28,ent_002,Amazon,Amazon - mixer,-1871.93,Equipment,,ambiguous
+8206d360-1410-449d-96a0-caaf70729cf2,2026-05-16,ent_004,Costco Wholesale,Costco Wholesale - staff lunch,-298.24,Meals & Entertainment,,ambiguous
+3d7356cc-1236-4ae6-a4e9-bd043cd9179d,2026-01-22,ent_001,Square Payment,Square Payment - contractor invoice via Square,-337.46,Subcontractor Payments,,ambiguous
+b9b68215-1279-4e47-8043-5b82b83fa220,2025-09-13,ent_002,Amazon,Amazon - commercial blender,-1194.39,Equipment,,ambiguous
+d04c70b2-e599-4205-bce5-a3dd767a6c79,2026-01-08,ent_003,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1968.8,Subcontractor Payments,,obvious
+51ec74c0-121d-4704-8722-483ed0c42037,2026-06-05,ent_001,Home Depot,Home Depot - lumber,-3316.34,Materials & Supplies,,ambiguous
+7c0167e4-31cd-44c0-843d-0a5fdea0a9c0,2026-02-24,ent_004,National Grid,National Grid - water & sewer,-887.15,Utilities,,obvious
+78dbea9d-a006-4df1-a757-68aa14d46b07,2025-07-21,ent_003,Sysco Foods,Sysco Foods - bulk ingredient restock,-1247.34,Cost of Goods Sold,,obvious
+ca8a6cda-7edf-44b1-844f-ff365598732e,2025-12-22,ent_004,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-1486.72,Subcontractor Payments,,obvious
+7727467c-9177-47a2-af74-df003d7913af,2025-07-04,ent_001,Square Payment,Square Payment - vendor payment via Square,-238.74,Cost of Goods Sold,,ambiguous
+bff21dfc-460b-4689-8272-35d830eb8360,2025-10-19,ent_003,Home Depot Pro,Home Depot Pro - job site materials,-2394.25,Materials & Supplies,,obvious
+a8e204cc-7c2e-4b61-9638-42fa90b2e57f,2025-12-04,ent_004,Home Depot,Home Depot - concrete,-3646.26,Materials & Supplies,,ambiguous
+67acd22a-9dac-484f-ab8f-1e41f07e3ded,2025-10-24,ent_004,Home Depot Pro,Home Depot Pro - building supply restock,-966.42,Materials & Supplies,,obvious
+140ad58d-dbe5-4696-9a10-8abaca30c190,2025-10-26,ent_003,Home Depot Pro,Home Depot Pro - hardware order,-176.78,Materials & Supplies,,obvious
+a63a69b2-5cee-47c1-b1f7-831d4479ca0a,2025-11-18,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - monthly retainer,-2027.51,Professional Fees,,obvious
+5c749ba9-59c6-4dad-a074-88ceb0dec9fe,2026-06-12,ent_003,Square Payment,Square Payment - vendor payment via Square,-469.5,Cost of Goods Sold,,ambiguous
+4dff3e02-1d70-4fd8-94e3-ef26a54fe56d,2025-10-19,ent_003,Square Payment,Square Payment - vendor payment via Square [1 of 2 - possible split to avoid approval threshold],-142.01,Cost of Goods Sold,split_transaction,anomaly
+120f9f64-d5fc-41dc-8ce1-97e6d584330b,2026-04-29,ent_001,Restaurant Depot,Restaurant Depot - produce delivery,-573.56,Cost of Goods Sold,,obvious
+11b4d555-9e34-45d5-bb2f-4099be147909,2025-06-22,ent_004,AWS,AWS - annual license renewal,-130.81,Software & Subscriptions,,obvious
+302cf0f5-fd79-4852-8467-63fc45b9b049,2025-10-05,ent_003,Paychex Inc,Paychex Inc - biweekly payroll run,-11214.74,Payroll,,obvious
+cc62dd06-68fa-4e66-90f5-990ece2503ed,2025-08-26,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-94.9,Repairs & Maintenance,,ambiguous
+1f3a1eaf-bc44-4521-b3b6-8425359db36b,2026-05-10,ent_001,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-977.69,Insurance,,obvious
+5955139d-d92d-480d-9347-b122ec22d53d,2026-05-14,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer,-324.14,Professional Fees,,obvious
+c61b4fc8-c8ed-414d-9869-5c3937be2382,2025-07-08,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-1168.4,Bank Fees,,obvious
+547c4250-ddd9-4a4e-a07b-e945cd50c569,2025-09-09,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer [unusually large vs vendor history],-9537.82,Professional Fees,outlier_amount,anomaly
+d5f8162b-3e65-432e-b3a4-3826cb55369c,2026-05-13,ent_001,Square Payment,Square Payment - vendor payment via Square,-400.47,Cost of Goods Sold,,ambiguous
+fd7d0a37-e969-4819-a3dc-f684fd88ed47,2025-07-12,ent_001,Yelp Ads,Yelp Ads - local promo campaign,-1804.19,Marketing,,obvious
+0e6b54c5-c1bf-44cd-9528-9716c9da1fc0,2025-10-14,ent_004,Microsoft 365,Microsoft 365 - cloud hosting charge,-2220.85,Software & Subscriptions,,obvious
+8bea8b6b-464e-4958-8ba7-8ceb0ceb89f6,2026-01-09,ent_004,Home Depot,Home Depot - hardware fix,-182.08,Repairs & Maintenance,,ambiguous
+5966d535-77f7-465f-8552-2fdbb6c05228,2025-06-29,ent_001,Home Depot,Home Depot - concrete,-1381.61,Materials & Supplies,,ambiguous
+d52e5ca7-4f27-443c-9d14-fc9da54768f5,2026-01-01,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - legal consultation,-1843.26,Professional Fees,,obvious
+784947b0-8c52-4dcb-a4a5-cceeede710f8,2025-10-15,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-2380.57,Bank Fees,,obvious
+33cfe588-0cf0-4400-ae36-5d5e6597302d,2025-10-05,ent_002,GitHub,GitHub - annual license renewal,-202.36,Software & Subscriptions,,obvious
+8e62c603-6128-4648-9923-a5e491310b57,2025-10-22,ent_002,Sysco Foods,Sysco Foods - beverage order,-839.13,Cost of Goods Sold,,obvious
+c7e8cff1-6ac8-4ad4-8adf-ecb9fdea3cc8,2026-02-01,ent_003,ADP Payroll,Payroll run - processed Saturday (off-cycle),-6644.84,Payroll,off_hours_payroll,anomaly
+43a4c37c-074e-43f5-91c1-b1801a3cbfbc,2025-09-18,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - monthly account fee,-602.3,Bank Fees,,obvious
+6030f75d-1a5b-4f29-ba24-23b23ae6485c,2026-01-02,ent_002,Square Payment,Square Payment - vendor payment via Square,-565.18,Cost of Goods Sold,,ambiguous
+441c6fd5-d893-47fb-addd-f96fade57fc1,2025-12-13,ent_001,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-101.14,Bank Fees,,obvious
+44bef8e5-fbed-4c1b-8e28-984ed939bdfc,2025-07-23,ent_004,Amazon,Amazon - POS tablet,-766.49,Equipment,,ambiguous
+2b0bf50b-f7b1-4b63-a172-3ac22772fdb7,2025-07-25,ent_003,Amazon,Amazon - pens,-199.47,Office Supplies,,ambiguous
+2ae9cf16-cf93-43ee-ba84-695a1e8f8333,2025-08-11,ent_001,Marriott Hotels,Marriott Hotels - conference travel,-1126.76,Travel,,obvious
+6d49b430-19a4-4c82-b9bb-c2ffd38979b2,2026-05-21,ent_002,Costco Wholesale,Costco Wholesale - cleaning supplies,-116.03,Office Supplies,,ambiguous
+651973a3-ff74-4f86-aa10-88b09c4d4d9e,2026-03-10,ent_002,Marriott Hotels,Marriott Hotels - conference travel,-2369.25,Travel,,obvious
+71adbc3d-5733-4b77-9329-dd1899bee353,2025-07-15,ent_001,Amazon,Amazon - site supplies,-1461.01,Materials & Supplies,,ambiguous
+759dec57-d985-4e3f-87c1-2666d8c52273,2025-10-31,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-4223.82,Rent,,obvious
+323429eb-dd19-4c4d-b2fc-962f46051a6b,2026-02-02,ent_002,Manual Journal Entry,Manual adjustment - owner draw adjustment,-2000,Travel,round_number_manual,anomaly
+ae78c145-d091-4c06-9374-a7a7b12b262f,2025-06-27,ent_003,Chase Business Banking Fee,Chase Business Banking Fee - wire transfer fee,-1727.92,Bank Fees,,obvious
+6f7029fe-aacd-4757-93f6-ff80286906f9,2026-05-03,ent_004,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1014.07,Insurance,,obvious
+c16fbba9-fdcd-4f27-823e-385d1ef68d2d,2025-11-15,ent_001,Enterprise Rent-A-Car,Enterprise Rent-A-Car - conference travel,-1803.35,Travel,,obvious
+51223bf7-5544-455f-8f16-fb8f5574d06e,2026-04-01,ent_003,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-747.88,Subcontractor Payments,,obvious
+fe9541fb-794e-47fb-956a-18c1a18da1c3,2025-08-19,ent_002,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-12625.57,Payroll,,obvious
+8cb24c34-9ee9-4313-bbe2-bc52391434ba,2026-01-22,ent_004,QuickBooks Online,QuickBooks Online - annual license renewal,-2422.44,Software & Subscriptions,,obvious
+ec858fe3-8a5d-4f77-b5a7-1d014cb3cf18,2026-02-25,ent_002,ConEd,ConEd - internet & phone service,-2264.86,Utilities,,obvious
+78e4dcd0-c8c6-4b44-9c0b-04885a653e72,2026-05-15,ent_004,Delta Air Lines,Delta Air Lines - conference travel,-560.4,Travel,duplicate,anomaly
+bfd6923d-2c40-49f3-8eb2-b24af9de90b9,2025-08-10,ent_002,Amazon,Amazon - fasteners,-769.18,Materials & Supplies,,ambiguous
+7e86538d-aad5-46ef-a93d-019f2f379a7f,2026-03-31,ent_003,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-2407.46,Insurance,,obvious
+854998a8-9ed8-455a-a5c8-acc93657d454,2026-03-26,ent_003,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer,-846.01,Professional Fees,,obvious
+3f448a1e-8d1d-436a-96ed-2ac4a3ee48a4,2026-05-28,ent_002,Square Payment,Square Payment - contractor invoice via Square,-4005.03,Subcontractor Payments,,ambiguous
+810ab187-74d5-47b1-a0e6-a49a1aa8c350,2025-08-08,ent_001,Google Ads,Google Ads - local promo campaign,-1498.39,Marketing,,obvious
+08c38b62-54a9-4443-89b0-a3f9a09f1b68,2025-09-26,ent_004,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-456.82,Professional Fees,,obvious
+5b0d8ca7-c460-4d3d-b8f8-df9a2b193855,2026-03-02,ent_002,Home Depot,Home Depot - power tools,-1833.13,Equipment,,ambiguous
+a65e3f6f-eda5-4344-8ee4-fe08a1d11d03,2025-09-15,ent_004,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-4660.86,Rent,,obvious
+0736d9f6-6d74-4e1e-8ffb-eb04e6a8f253,2025-10-02,ent_003,Square Payment,Square Payment - vendor payment via Square,-280.35,Cost of Goods Sold,,ambiguous
+4d27d6e5-ef3b-4ee6-b240-98e77dd4ea4a,2025-12-30,ent_003,Downtown Realty Holdings,Downtown Realty Holdings - rent - warehouse space,-3710.29,Rent,,obvious
+f7d96a7d-5575-4a4c-aafe-c511dc6128f8,2026-03-03,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-47.36,Repairs & Maintenance,,ambiguous
+63640c51-e4a8-4949-9d8e-2410a2996f75,2026-02-19,ent_004,84 Lumber,84 Lumber - job site materials,-2315.89,Materials & Supplies,,obvious
+31826d0e-7143-45ad-96a6-a2abe24f1162,2025-10-22,ent_001,Shell Gas Station,Shell Gas Station - fuel - business trip,-109.31,Travel,,ambiguous
+f5e67629-f348-4efa-bf5e-ac557515a6cc,2025-10-28,ent_004,Google Ads,Google Ads - social media ads,-2392.58,Marketing,,obvious
+65b0fec3-8f99-44d3-8a7b-c5a03a3be691,2025-07-20,ent_004,Home Depot,Home Depot - power tools,-607.84,Equipment,,ambiguous
+7707e8a9-2fce-4a1d-92b2-d40195dbff52,2025-12-07,ent_003,Shell Gas Station,Shell Gas Station - fuel - business trip,-81.82,Travel,,ambiguous
+f338b3b4-f3c2-4284-bb79-24f4ab573b6c,2025-09-14,ent_003,Hartford Insurance Group,Hartford Insurance Group - workers comp premium,-1873.84,Insurance,,obvious
+f92bb3e1-161f-4553-a87c-012cdaed16b2,2026-04-30,ent_002,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-108.8,Repairs & Maintenance,,ambiguous
+6dfdae28-4bab-4f3b-a942-f7ab2c51fd0d,2026-04-08,ent_003,Gusto Payroll Services,Gusto Payroll Services - biweekly payroll run,-9853.92,Payroll,,obvious
+e451e97a-b585-4040-9d48-fb7dfa6cd279,2025-11-17,ent_002,Costco Wholesale,Costco Wholesale - paper goods [unusually large vs vendor history],-1139.81,Office Supplies,outlier_amount,anomaly
+f4c7c692-0d78-4226-86e8-7a9da090292a,2025-08-25,ent_001,Verizon Fios,Verizon Fios - water & sewer,-2264.0,Utilities,,obvious
+6d42c808-dd13-47f6-a299-e65636851d98,2026-05-14,ent_004,Delta Air Lines,Delta Air Lines - conference travel,-560.4,Travel,,obvious
+37e8558c-ea38-4783-8ed7-d8db1efbd948,2026-02-18,ent_004,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - monthly account fee,-2452.32,Bank Fees,,obvious
+fb918a4d-c69a-485d-9061-305800ced2f7,2025-11-26,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-43.0,Repairs & Maintenance,,ambiguous
+3b8dc409-e54e-4579-93d1-394718bf8565,2026-01-20,ent_003,Home Depot,Home Depot - hardware fix,-679.54,Repairs & Maintenance,,ambiguous
+c10047fc-5e91-4191-930e-a184d44c8eea,2026-05-07,ent_002,Home Depot,Home Depot - paint,-387.3,Repairs & Maintenance,,ambiguous
+f73f9fd2-713c-4213-b578-420983a529b4,2025-09-11,ent_001,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-73.33,Repairs & Maintenance,,ambiguous
+0b681273-4318-42a8-b483-e7092ba64442,2025-11-29,ent_003,Amazon,Amazon - commercial blender,-2562.55,Equipment,,ambiguous
+837adea9-36fa-451a-9faa-708259b6fcb5,2026-05-05,ent_004,Manual Journal Entry,Manual adjustment - misc accrual reversal,-1000,Cost of Goods Sold,round_number_manual,anomaly
+e65f86c7-8107-4b1b-b522-c57c39cbeb98,2025-07-30,ent_001,ConEd,ConEd - water & sewer,-709.37,Utilities,,obvious
+baf84ddd-99fd-4e80-867f-3a7bb6080c33,2025-12-27,ent_002,Local Farms Co-op,Local Farms Co-op - weekly food order,-2031.2,Cost of Goods Sold,,obvious
+94803942-7942-4099-a38a-0651970031b6,2025-09-11,ent_004,National Grid,National Grid - water & sewer,-2289.51,Utilities,,obvious
+8a0a7a85-537a-4396-b179-a53c152ca00b,2026-06-13,ent_003,ADP Payroll,ADP Payroll - payroll - hourly staff,-5691.62,Payroll,,obvious
+bfb87d6c-99c7-4e67-9829-a90ee1d5ab90,2025-09-05,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-58.1,Repairs & Maintenance,,ambiguous
+da5a460a-371e-45bb-88c9-b990fddb5af0,2026-03-23,ent_002,Restaurant Depot,Restaurant Depot - bulk ingredient restock,-2037.5,Cost of Goods Sold,,obvious
+fba291b4-5655-44d8-9bb1-f34d7e1209d1,2026-02-10,ent_004,Home Depot Pro,Home Depot Pro - job site materials,-1163.65,Materials & Supplies,,obvious
+3ccbe4ab-b374-4d9f-8843-d05feeb3ae97,2025-07-26,ent_003,Verizon Fios,Verizon Fios - water & sewer,-2214.01,Utilities,,obvious
+4d6cfa9e-9855-4da7-8dd6-1728bb34f5d5,2026-04-21,ent_004,Google Ads,Google Ads - local promo campaign,-1707.39,Marketing,,obvious
+4becf472-ee93-4580-8582-07f5079f5803,2026-05-12,ent_002,Hartford Insurance Group,Hartford Insurance Group - quarterly liability premium,-763.39,Insurance,,obvious
+4d66a0ce-f1f6-40fe-9b4e-b5376a23d11e,2026-01-07,ent_001,Square Payment,Square Payment - vendor payment via Square,-451.86,Cost of Goods Sold,,ambiguous
+f85a3b0c-650e-4000-87cf-65ef917827c8,2025-07-20,ent_001,Downtown Realty Holdings,Downtown Realty Holdings - monthly lease payment,-3493.65,Rent,,obvious
+8c4f1b35-483e-4163-b4e4-5a61b2bb5b1d,2026-02-17,ent_002,ADP Payroll,ADP Payroll - payroll - salaried staff,-11327.64,Payroll,,obvious
+74378f53-4a19-44fb-9dc5-ee0e178a5c39,2025-12-28,ent_001,Paychex Inc,Paychex Inc - payroll - salaried staff,-9297.49,Payroll,,obvious
+b4126030-c437-4554-ad3b-7c9b6d0ff5d1,2025-08-31,ent_004,Shell Gas Station,Shell Gas Station - fuel - business trip,-46.31,Travel,,ambiguous
+4db70e1c-ccdc-41d7-ba70-6cc1ff5febda,2025-12-27,ent_002,Marriott Hotels,Marriott Hotels - conference travel,-542.36,Travel,,obvious
+3c16f2d2-7fb5-4a2e-a145-ef8a34b68886,2025-07-14,ent_001,Marriott Hotels,Marriott Hotels - conference travel,-606.03,Travel,,obvious
+0fa7dfbf-1947-4941-a0b7-cccf105ea531,2025-11-29,ent_004,Shell Gas Station,Shell Gas Station - fuel - business trip [1 of 2 - possible split to avoid approval threshold],-59.38,Travel,split_transaction,anomaly
+338772ed-a13d-47fd-89e9-67514d91afef,2026-04-19,ent_002,Marcum LLP Accounting,Marcum LLP Accounting - tax prep services,-1281.71,Professional Fees,,obvious
+7eed4645-6275-470e-8bde-b5c9d16978d1,2026-06-11,ent_004,Home Depot,Home Depot - paint,-173.66,Repairs & Maintenance,,ambiguous
+5ec7d115-45e6-439e-822a-538912574b65,2025-07-09,ent_002,Costco Wholesale,Costco Wholesale - bulk ingredients,-1338.23,Cost of Goods Sold,,ambiguous
+a3e0b9f4-11a7-4d84-8ebd-8c731e905220,2025-12-10,ent_001,Reliable Plumbing Co,Reliable Plumbing Co - milestone payment,-345.0,Subcontractor Payments,,obvious
+abf5104e-304e-48e3-a0c8-227f14314672,2026-05-25,ent_003,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-864.95,Bank Fees,,obvious
+ca009fbf-b936-4faa-bd19-26e3f44379ba,2026-03-01,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-4197.11,Payroll,off_hours_payroll,anomaly
+04d0e4d2-8c2f-4a6c-94f0-2d0e0e660bd7,2025-10-18,ent_002,Square Payment,Square Payment - vendor payment via Square,-594.17,Cost of Goods Sold,,ambiguous
+c6bd5ad3-6664-4eb3-968a-0c234a7196b1,2025-10-03,ent_001,Local Farms Co-op,Local Farms Co-op - produce delivery,-161.06,Cost of Goods Sold,,obvious
+26376dcb-7564-48bc-b2ca-66e92dcf823c,2025-11-22,ent_002,ADP Payroll,Payroll run - processed Saturday (off-cycle),-6135.54,Payroll,off_hours_payroll,anomaly
+240a4247-065e-46eb-9e9f-171359738263,2026-03-22,ent_003,Costco Wholesale,Costco Wholesale - beverages,-980.13,Cost of Goods Sold,,ambiguous
+01e63af0-eb17-40d4-82c8-8146291aa02d,2026-02-05,ent_004,Apex Electrical Contracting,Apex Electrical Contracting - subcontractor invoice,-1184.34,Subcontractor Payments,,obvious
+e2af2e17-2e77-4302-961e-763cfd7f33e9,2025-09-02,ent_003,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1013.44,Insurance,,obvious
+27e88f27-6ce7-4501-8b9d-3bb09ea1bf1a,2026-04-01,ent_004,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-1727.76,Travel,,obvious
+8c0fe558-1dfb-4d40-a607-cfa9af3ff25a,2025-11-01,ent_002,Home Depot,Home Depot - concrete,-3861.66,Materials & Supplies,,ambiguous
+68c0ad59-60f0-4327-8333-17b8024a74bd,2026-04-08,ent_004,National Grid,National Grid - water & sewer,-2146.7,Utilities,,obvious
+7f1f8f62-6938-48d6-97b1-e77553f78e7b,2025-09-16,ent_001,Square Payment,Square Payment - vendor payment via Square,-197.34,Cost of Goods Sold,,ambiguous
+9eabb2f9-7638-4960-b27a-a894cddf6c75,2026-05-17,ent_003,QuickBooks Online,QuickBooks Online - cloud hosting charge,-2309.0,Software & Subscriptions,,obvious
+fb395c88-0e29-4623-9ac6-262b7bf30c16,2025-07-26,ent_003,Home Depot,Home Depot - hardware fix,-430.2,Repairs & Maintenance,,ambiguous
+23e37e19-828c-41cf-b152-22d8a2c38302,2025-10-06,ent_003,Home Depot,Home Depot - repair parts,-478.65,Repairs & Maintenance,,ambiguous
+4b853a6d-361d-4731-afbb-01b94b9a3bdd,2026-05-09,ent_004,Westfield Property Management,Westfield Property Management - rent - storefront,-6809.5,Rent,,obvious
+50336d47-0944-4ea0-bc25-c7f23bfbff1b,2025-12-07,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-8568.95,Payroll,off_hours_payroll,anomaly
+a5d22578-c18d-45d0-ae94-10efe4c14a14,2026-02-06,ent_002,Toast POS,Toast POS - monthly subscription,-1154.73,Software & Subscriptions,,obvious
+320d7366-9882-4c97-9024-33476c0d6f15,2026-05-19,ent_002,Goldfarb & Associates Legal,Goldfarb & Associates Legal - legal consultation,-301.85,Professional Fees,,obvious
+84c5897e-2fff-47e4-8eb6-69387aa804aa,2026-05-24,ent_004,Slack,Slack - annual license renewal,-1178.22,Software & Subscriptions,,obvious
+db960233-9780-45f4-b5eb-d48f95b36127,2026-02-07,ent_001,ADP Payroll,Payroll run - processed Saturday (off-cycle),-6561.03,Payroll,off_hours_payroll,anomaly
+ef331474-85a4-4a44-aa67-0ca79a74d70c,2025-12-23,ent_002,AWS,AWS - cloud hosting charge,-1665.76,Software & Subscriptions,,obvious
+4799f2d0-f09c-4209-88c8-ba7781851be3,2026-02-17,ent_001,Hartford Insurance Group,Hartford Insurance Group - monthly premium,-1590.67,Insurance,,obvious
+5436175e-a36e-43d7-b6a3-a65344631722,2025-08-22,ent_003,Westfield Property Management,Westfield Property Management - rent - storefront,-2896.22,Rent,,obvious
+80754115-2a4d-46fb-adbf-e622a3baf523,2025-08-20,ent_003,Summit Roofing LLC,Summit Roofing LLC - milestone payment,-992.06,Subcontractor Payments,,obvious
+907270b5-2c07-4ea5-ab0c-946ad0246428,2025-08-07,ent_004,Manual Journal Entry,Manual adjustment - reclass entry,-500,Subcontractor Payments,round_number_manual,anomaly
+38ffd6df-71b9-409b-864b-6ce9563e34a3,2025-08-31,ent_002,Reliable Plumbing Co,Reliable Plumbing Co - subcontractor invoice,-2184.34,Subcontractor Payments,,obvious
+b6530023-9075-418c-aff0-708bcc3b08c8,2025-07-28,ent_002,Wire Transfer Fee - JPM,Wire Transfer Fee - JPM - wire transfer fee,-2474.02,Bank Fees,,obvious
+c16516fa-e804-4da5-bf19-8f28394910ac,2026-02-15,ent_004,84 Lumber,84 Lumber - hardware order,-2183.09,Materials & Supplies,,obvious
+4c519ece-72b8-42ae-822c-c37e4535d30f,2026-06-11,ent_001,Summit Roofing LLC,Summit Roofing LLC - trade contractor payment,-1281.05,Subcontractor Payments,,obvious
+b2a7ceba-109c-4c25-a626-7d71f5001174,2026-01-30,ent_003,Yelp Ads,Yelp Ads - social media ads,-170.16,Marketing,,obvious
+55ae5862-d0dc-4f56-a244-4ef9df07a24b,2025-11-30,ent_002,Verizon Fios,Verizon Fios - internet & phone service,-927.12,Utilities,,obvious
+663a929a-d6d3-4e4d-851b-0663992da658,2025-09-04,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle,-79.1,Repairs & Maintenance,,ambiguous
+082fbf07-f831-465a-a996-143952cfaedd,2026-04-19,ent_004,Costco Wholesale,Costco Wholesale - produce,-1648.12,Cost of Goods Sold,,ambiguous
+7705df4a-525b-4458-a913-40e5e095ba94,2026-01-20,ent_003,Reliable Plumbing Co,Reliable Plumbing Co - trade contractor payment,-1017.95,Subcontractor Payments,,obvious
+0bedcf34-9a72-4f36-9691-2f278028f6cb,2026-03-15,ent_004,AWS,AWS - cloud hosting charge,-1816.97,Software & Subscriptions,,obvious
+b621847f-966d-417a-aad0-911c5469ae4a,2026-05-11,ent_002,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-1546.06,Professional Fees,,obvious
+d39b6efb-997a-48d5-87bb-ed2e6ce10a35,2025-07-02,ent_004,Meta Ads,Meta Ads - ad campaign spend,-206.6,Marketing,,obvious
+5bb2544b-5e5e-45b0-b82f-8f89b5eed6f9,2025-08-02,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - monthly retainer,-91.6,Professional Fees,,obvious
+1d861904-5aef-479b-aecb-ad787737bb71,2025-10-17,ent_004,Shell Gas Station,Shell Gas Station - fuel - delivery vehicle [unusually large vs vendor history],-748.26,Repairs & Maintenance,outlier_amount,anomaly
+2d61ea0d-58b2-4b9e-bd8d-ea242548d127,2026-04-27,ent_004,National Grid,National Grid - internet & phone service,-1725.3,Utilities,,obvious
+30d9c5d6-847b-412f-bd36-76074d9438a2,2025-12-14,ent_004,Goldfarb & Associates Legal,Goldfarb & Associates Legal - tax prep services,-2043.06,Professional Fees,,obvious
+8a1ac5ab-a06e-4e44-8fb9-e2a7f86c372a,2025-09-01,ent_002,Enterprise Rent-A-Car,Enterprise Rent-A-Car - business trip - flight,-1357.3,Travel,,obvious
+98bf104f-f7dd-48ca-b18d-71e42ada7284,2025-08-19,ent_003,Shell Gas Station,Shell Gas Station - fuel - business trip,-43.2,Travel,,ambiguous
